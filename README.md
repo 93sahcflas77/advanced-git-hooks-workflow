@@ -32,6 +32,7 @@ lint-staged — Optimized Staged-File Processing
 🧾 Structured Git history for traceability
 
 ## 🏗 Architecture Overview
+```
 Developer → git commit
         │
         ▼
@@ -45,6 +46,7 @@ Developer → git commit
               └── Custom Commit Parser
         │
         ▼
+```
 🔒 Governance & Standards Enforcement
 
 ## 🔒 Governance & Standards
