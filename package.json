@@ -18,9 +18,9 @@
   "bugs": {
     "url": "https://github.com/93sahcflas77/advanced-git-hooks-workflow/issues"
   },
-
   "homepage": "https://github.com/93sahcflas77/advanced-git-hooks-workflow#readme",
   "devDependencies": {
-    "husky": "^9.1.7"
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7"
   }
 }

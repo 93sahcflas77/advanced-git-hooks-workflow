@@ -1,0 +1,8 @@
+{
+    "**/*.{js, mjs, ts, jsx, tsx}": {
+        
+    },
+    "**/*.{html, json, md css}": {
+
+    }
+}
