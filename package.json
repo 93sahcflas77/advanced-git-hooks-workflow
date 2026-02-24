@@ -4,8 +4,9 @@
   "description": "advanced-git-hooks-workflow is a production-ready Git automation system that enforces commit standards, code quality, and repository governance using Husky, Commitlint, ESLint, Prettier, and lint-staged. It ensures clean history, automated validation, and CI/CD-friendly workflows for scalable teams and enterprise projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
+    "prepare": "husky",
+    "format": "prettier  --write .",
+    "format:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/93sahcflas77/advanced-git-hooks-workflow#readme",
   "devDependencies": {
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.7"
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.8.1"
   }
 }

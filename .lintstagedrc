@@ -1,8 +1,4 @@
 {
-    "**/*.{js, mjs, ts, jsx, tsx}": {
-        
-    },
-    "**/*.{html, json, md css}": {
-
-    }
+  "**/*.{js, mjs, ts, jsx, tsx}": ["prettier --write"],
+  "**/*.{html, json, md css}": ["prettier --write"]
 }
