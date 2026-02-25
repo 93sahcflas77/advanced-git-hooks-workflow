@@ -21,7 +21,7 @@ module.exports = {
    */
   rules: {
     'type-case': [0, 'always', 'lower-case'],
-    'type-enum': [2, 'always', ['feat', 'fix', 'chore', 'docs', 'refactor', 'test']],
+    'type-enum': [2, 'always', ['feat', 'fix', 'chore', 'docs', 'refactor', 'test', 'build']],
     'type-empty': [2, 'never'],
     'type-max-length': [0, 'always', Infinity],
     'type-min-length': [0, 'always', 3],
