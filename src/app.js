@@ -5,6 +5,7 @@ const cookieParser = require('cookie-parser');
 const morgan = require('morgan');
 const corsMiddleware = require('./config/cors');
 const { accessLogStream, errorLogStream } = require('./utils/log');
+const { appLimiter, authLimiter } = require('./config/rateLimit');
 const app = express();
 
 app.disable('x-powered-by');
