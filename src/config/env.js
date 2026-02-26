@@ -1,0 +1,15 @@
+const env = process.env.NODE_ENV || "development";
+console.log(env);
+
+require("dotenv").config({
+    path: `.env.${env}`
+})
+
+const confg = {
+    port: process.env.PORT,
+    nodeEnv: process.env.NODE_ENV,
+    cookieSecret: process.env.COOKIE_SECRET,
+    originsite: process.env.CLIENT_URL
+}
+
+module.exports = confg
