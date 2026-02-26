@@ -3,6 +3,7 @@ const express = require('express');
 const helmet = require('helmet');
 const cookieParser = require('cookie-parser');
 const morgan = require('morgan');
+const compression = require('compression');
 const corsMiddleware = require('./config/cors');
 const { accessLogStream, errorLogStream } = require('./utils/log');
 const { appLimiter, authLimiter } = require('./config/rateLimit');
@@ -19,6 +20,13 @@ app.use(
 );
 
 app.use(corsMiddleware);
+
+app.use(
+  compression({
+    level: 6,
+    threshold: 1024,
+  }),
+);
 
 if (config.nodeEnv === 'production') {
   app.use(morgan('combined', { stream: accessLogStream }));
