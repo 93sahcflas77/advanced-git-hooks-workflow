@@ -1,5 +1,6 @@
-const confg = require('./config/env');
+const config = require('./config/env');
 const express = require('express');
+const cookieParser = require('cookie-parser');
 const app = express();
 
 app.disable('x-powered-by');
@@ -16,5 +17,10 @@ app.use(
     limit: '10mb',
   }),
 );
+
+if (!config.cookieSecret) {
+  throw new Error('COOKIE_SECRET is required');
+}
+app.use(cookieParser(config.cookieSecret));
 
 module.exports = app;
