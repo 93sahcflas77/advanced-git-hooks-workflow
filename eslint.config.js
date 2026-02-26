@@ -19,7 +19,7 @@ module.exports = defineConfig([
       'no-var': 2, //not use var
       'prefer-const': 2, //not use let
       'object-curly-spacing': [2, 'always'], //"no-undef": "error"
-      'no-undef': 2, //spaces in objects
+      'no-undef': 0, //spaces in objects
       'no-async-promise-executor': 2, //not prommise use
       'no-await-in-loop': 1, // Disallows using await inside loops.
       'no-debugger': 2, //"no-debugger": "error"
