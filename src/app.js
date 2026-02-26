@@ -1,11 +1,19 @@
 const config = require('./config/env');
 const express = require('express');
+const helmet = require('helmet');
 const cookieParser = require('cookie-parser');
 const corsMiddleware = require('./config/cors');
 const app = express();
 
 app.disable('x-powered-by');
 app.set('trust proxy', 1);
+
+app.use(
+  helmet({
+    contentSecurityPolicy: false, //enable later carefully
+    crossOriginEmbedderPolicy: false,
+  }),
+);
 
 app.use(corsMiddleware);
 
