@@ -2,7 +2,9 @@ const config = require('./config/env');
 const express = require('express');
 const helmet = require('helmet');
 const cookieParser = require('cookie-parser');
+const morgan = require('morgan');
 const corsMiddleware = require('./config/cors');
+const { accessLogStream, errorLogStream } = require('./utils/log');
 const app = express();
 
 app.disable('x-powered-by');
@@ -16,6 +18,18 @@ app.use(
 );
 
 app.use(corsMiddleware);
+
+if (config.nodeEnv === 'production') {
+  app.use(morgan('combined', { stream: accessLogStream }));
+  app.use(
+    morgan('combined', {
+      stream: errorLogStream,
+      skip: (req, res) => res.statusCode < 400,
+    }),
+  );
+} else {
+  app.use(morgan('dev'));
+}
 
 app.use(
   express.json({
