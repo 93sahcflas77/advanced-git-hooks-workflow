@@ -81,4 +81,15 @@ if (!config.cookieSecret) {
 }
 app.use(cookieParser(config.cookieSecret));
 
+app.use((err, req, res, next) => {
+  if (err.type === 'entity.too.large') {
+    res.status(413).json({
+      error: {
+        message: 'Payload too large',
+      },
+    });
+  }
+  next(err);
+});
+
 module.exports = app;
