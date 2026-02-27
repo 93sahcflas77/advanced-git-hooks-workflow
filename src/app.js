@@ -6,12 +6,15 @@ const cookieParser = require('cookie-parser');
 const morgan = require('morgan');
 const compression = require('compression');
 const corsMiddleware = require('./config/cors');
+const requestIDMiddleware = require('./middleware/requestID');
 const { accessLogStream, errorLogStream } = require('./utils/log');
 const { appLimiter, authLimiter } = require('./config/rateLimit');
 const app = express();
 
 app.disable('x-powered-by');
 app.set('trust proxy', 1);
+
+app.use(requestIDMiddleware);
 
 app.use(
   helmet({
@@ -40,6 +43,10 @@ app.use(
     threshold: 1024,
   }),
 );
+
+morgan.token('request-id', (req) => {
+  return req.requestID;
+});
 
 if (config.nodeEnv === 'production') {
   app.use(
