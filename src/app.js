@@ -1,4 +1,5 @@
 const config = require('./config/env');
+const path = require('path');
 const express = require('express');
 const helmet = require('helmet');
 const cookieParser = require('cookie-parser');
@@ -21,6 +22,18 @@ app.use(
 
 app.use(corsMiddleware);
 
+app.use(
+  '/static',
+  express.static(path.join(process.cwd(), 'public'), {
+    maxAge: '7d',
+    etag: true,
+    lastModified: true,
+    setHeaders: (res, path_) => {
+      res.setHeader('Cache-Control', 'public, max-age=86400');
+    },
+    index: false,
+  }),
+);
 app.use(
   compression({
     level: 6,
