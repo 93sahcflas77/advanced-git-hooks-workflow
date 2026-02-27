@@ -29,15 +29,19 @@ app.use(
 );
 
 if (config.nodeEnv === 'production') {
-  app.use(morgan('combined', { stream: accessLogStream }));
   app.use(
-    morgan('combined', {
+    morgan(':request-id :method :url :status :res[content-length] - :response-time ms', {
+      stream: accessLogStream,
+    }),
+  );
+  app.use(
+    morgan(':request-id :method :url :status :res[content-length] - :response-time ms', {
       stream: errorLogStream,
       skip: (req, res) => res.statusCode < 400,
     }),
   );
 } else {
-  app.use(morgan('dev'));
+  app.use(morgan(':request-id :method :url :status :res[content-length] - :response-time ms'));
 }
 
 app.use(
