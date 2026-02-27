@@ -10,6 +10,9 @@ const corsMiddleware = require('./config/cors');
 const requestIDMiddleware = require('./middleware/requestID');
 const { accessLogStream, errorLogStream } = require('./utils/log');
 const { appLimiter, authLimiter } = require('./config/rateLimit');
+const loadRoutes = require('./utils/loadRoutes');
+const apiRouter = express.Router();
+const routesPath = path.join(__dirname, 'routes');
 const app = express();
 
 app.disable('x-powered-by');
@@ -83,6 +86,9 @@ if (!config.cookieSecret) {
   throw new Error('COOKIE_SECRET is required');
 }
 app.use(cookieParser(config.cookieSecret));
+
+loadRoutes(apiRouter, routesPath);
+app.use('/api', apiRouter);
 
 app.use((err, req, res, next) => {
   if (err.type === 'entity.too.large') {
