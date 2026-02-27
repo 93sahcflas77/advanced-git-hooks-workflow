@@ -5,6 +5,7 @@ const helmet = require('helmet');
 const cookieParser = require('cookie-parser');
 const morgan = require('morgan');
 const compression = require('compression');
+const hpp = require('hpp');
 const corsMiddleware = require('./config/cors');
 const requestIDMiddleware = require('./middleware/requestID');
 const { accessLogStream, errorLogStream } = require('./utils/log');
@@ -22,6 +23,8 @@ app.use(
     crossOriginEmbedderPolicy: false,
   }),
 );
+
+app.use(hpp({ whitelist: [] }));
 
 app.use(corsMiddleware);
 
