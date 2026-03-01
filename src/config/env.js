@@ -9,6 +9,7 @@ const confg = {
   nodeEnv: process.env.NODE_ENV,
   cookieSecret: process.env.COOKIE_SECRET,
   originsite: process.env.CLIENT_URL,
+  baseUrl: process.env.BASE_URL,
 };
 
 module.exports = confg;

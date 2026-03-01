@@ -11,7 +11,8 @@
     "eslint:fix": "eslint . fix",
     "dev": "cross-env NODE_ENV=development nodemon server.js",
     "prod": "cross-env NODE_ENV=production node server.js",
-    "test": "cross-env NODE_ENV=test node server.js"
+    "test": "cross-env NODE_ENV=test node server.js",
+    "swagger:gen": "node docs/swagger.docs.js"
   },
   "repository": {
     "type": "git",
@@ -47,6 +48,11 @@
     "express-rate-limit": "^8.2.1",
     "helmet": "^8.1.0",
     "hpp": "^0.2.3",
-    "morgan": "^1.10.1"
+    "mongoose": "^8.23.0",
+    "mongoose-to-swagger": "^1.5.1",
+    "morgan": "^1.10.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
   }
 }
