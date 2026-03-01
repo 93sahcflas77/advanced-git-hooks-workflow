@@ -1,0 +1,1123 @@
+@openapi 
+/path: 
+  method: 
+    tags: 
+    summary: 
+    description: 
+    operationId:
+    security:
+    parameters: 
+      - name: 
+        in: 
+        description: 
+        required: 
+        schema: 
+        example:
+    responses:
+      statusCode: 
+        description:
+        headers:
+          headerName:
+            description: 
+            schema:
+            example:
+        content:
+          mediaType:
+            schema:
+            example:
+    requestBody:
+      description:
+      required:
+      content:
+        mediaType:
+          schema:
+          example:
+
+
+# GET methos
+/**
+ * @openapi
+ * /path:
+ *   method:
+ *     summary: 
+ *     description: 
+ *     tags: 
+ *     operationId: 
+ *
+ *     x-module: 
+ *     x-permission: 
+ *     x-audit-log: 
+ *
+ *     security:
+ *
+ *     parameters:
+ *       - name: 
+ *         in: 
+ *         required:
+ *         description: 
+ *         schema:
+ *         example:
+ *
+ *     responses:
+ *       statusCode:
+ *         description: 
+ *         headers: 
+ *           headerName:
+ *             description:
+ *             schema:
+ *             example:
+ *         content:
+ *           mediaType:
+ *             schema:
+ *             example:
+ */
+
+
+# POST methods
+/**
+ * @openapi
+ * /path:
+ *   method:
+ *     summary: 
+ *     description: 
+ *     tags: 
+ *     operationId: 
+ *
+ *     x-module: 
+ *     x-permission: 
+ *     x-audit-log: 
+ *
+ *     security:
+ *
+ *     parameters:
+ *       - name: 
+ *         in: 
+ *         required:
+ *         description: 
+ *         schema:
+ *         example:
+ *
+ *     responses:
+ *       statusCode:
+ *         description: 
+ *
+ *     requestBody:
+ *       description:
+ *       required:
+ *       content:
+ *         mediaType:
+ *           schema:
+ *           example:
+ */
+
+
+#  put method
+/**
+ * @openapi
+ * /path:
+ *   method:
+ *     summary: 
+ *     description: 
+ *     tags: 
+ *     operationId: 
+ *
+ *     x-module: 
+ *     x-permission: 
+ *     x-audit-log: 
+ *
+ *     security:
+ *
+ *     parameters:
+ *       - name: 
+ *         in: 
+ *         required:
+ *         description: 
+ *         schema:
+ *         example:
+ *
+ *     responses:
+ *       statusCode:
+ *         description: 
+ *         headers: 
+ *           headerName:
+ *             description:
+ *             schema:
+ *             example:
+ *         content:
+ *           mediaType:
+ *             schema:
+ *             example:
+ *
+ *     requestBody:
+ *       description:
+ *       required:
+ *       content:
+ *         mediaType:
+ *           schema:
+ *           example:
+ */
+
+#  delete method
+/**
+ * @openapi
+ * /path:
+ *   method:
+ *     summary: 
+ *     description: 
+ *     tags: 
+ *     operationId: 
+ *
+ *     x-module: 
+ *     x-permission: 
+ *     x-audit-log: 
+ *
+ *     security:
+ *
+ *     parameters:
+ *       - name: 
+ *         in: 
+ *         required:
+ *         description: 
+ *         schema:
+ *         example:
+ *
+ *     responses:
+ *       statusCode:
+ *         description: 
+ *         headers: 
+ *           headerName:
+ *             description:
+ *             schema:
+ *             example:
+ *         content:
+ *           mediaType:
+ *             schema:
+ *             example:
+ *
+ */
+
+
+components: # Contains reusable definitions that can be referenced throughout the OpenAPI document.
+  schemas: #  Defines reusable data models (objects, arrays, primitives).
+   schemaName: #
+     # schema all key and value
+  responses: # Defines reusable data models (objects, arrays, primitives).
+    responseName: 
+      # responses all key and value 
+  parameters: # Defines reusable HTTP response structures.
+    parameterName:
+      # parameters all key and value
+  examples: # Stores reusable example objects.
+    exampleName:
+      # example all key and value
+  requestBodies: # Defines reusable request body structures.
+    requestBodieName:
+      # requestBodies all key and value
+  headers: # Defines reusable HTTP header definitions.
+    headerName:
+      # headers all key and value
+  securitySchemes: # Defines reusable HTTP header definitions.
+    securitySchemeNane:
+      # securitySchemes all key and value
+  links: # Describes relationships between operations (response → next request).
+    linName:
+      # lint all key and value
+  callbacks: # Describes relationships between operations (response → next request).
+    callbackName:
+      # callbacks all key and value
+
+components:
+
+  # 🔷 1️⃣ SCHEMAS (Models)
+  schemas:
+
+    User:
+      type: object
+      required: [id, name, email]
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: "550e8400-e29b-41d4-a716-446655440000"
+
+        name:
+          type: string
+          example: "Tony Stark"
+
+        email:
+          type: string
+          format: email
+          example: "tony@stark.com"
+
+        role:
+          type: string
+          enum: [admin, user]
+          example: admin
+
+    Order:
+      type: object
+      required: [orderId, amount]
+      properties:
+        orderId:
+          type: integer
+          example: 101
+        amount:
+          type: number
+          example: 500
+
+  # 🔷 2️⃣ PARAMETERS (Reusable params)
+  parameters:
+
+    UserIdParam:
+      name: id
+      in: path
+      required: true
+      description: User ID
+      schema:
+        type: integer
+      example: 1
+
+    PageQuery:
+      name: page
+      in: query
+      schema:
+        type: integer
+        default: 1
+
+  # 🔷 3️⃣ RESPONSES (Reusable responses)
+  responses:
+
+    NotFound:
+      description: Resource not found
+
+    Unauthorized:
+      description: Unauthorized access
+
+    SuccessUser:
+      description: Successful user response
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/User"
+
+  # 🔷 4️⃣ REQUEST BODIES
+  requestBodies:
+
+    CreateUser:
+      description: User payload
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/User"
+
+  # 🔷 5️⃣ HEADERS
+  headers:
+
+    RequestId:
+      description: Request tracking ID
+      schema:
+        type: string
+        example: "req-123"
+
+  # 🔷 6️⃣ SECURITY SCHEMES
+  securitySchemes:
+
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  # 🔷 7️⃣ EXAMPLES
+  examples:
+
+    UserExample:
+      summary: Sample user
+      value:
+        id: "1"
+        name: "Tony"
+        email: "tony@stark.com"
+
+  # 🔷 8️⃣ LINKS
+  links:
+
+    GetUserOrders:
+      operationId: getOrdersByUserId
+      parameters:
+        userId: "$response.body#/id"
+
+  # 🔷 9️⃣ CALLBACKS
+  callbacks:
+
+    OrderCallback:
+      "{$request.body#/callbackUrl}":
+        post:
+          requestBody:
+            description: Callback payload
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    status:
+                      type: string
+          responses:
+            "200":
+              description: Callback received
+
+paths:
+  /users/{id}:
+    get:
+      parameters:
+        - $ref: "#/components/parameters/UserIdParam"
+
+      responses:
+        "200":
+          $ref: "#/components/responses/SuccessUser"
+
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+paths:
+  /path:
+    method:
+      tags: # Groups the endpoint under a specific category in Swagger UI.
+      summary: # Provides a short title describing the endpoint.
+      description: # Gives a detailed explanation of what the endpoint does.
+      operationId: # Unique identifier for the operation (used for code generation).
+      parameters: # Unique identifier for the operation (used for code generation).
+      requestBody: # Specifies the request payload structure and content type.
+      responses: # Defines possible HTTP responses and their schemas.
+      security: # Specifies authentication/authorization requirements for the endpoint.
+      callbacks: # 
+      deprecated: # Marks the endpoint as deprecated (no longer recommended for use).
+
+# bearer JWT
+security:
+  type: http
+  schema: bearer
+  bearerformat: JWT
+
+# api key base
+security:
+ type: apikey
+ in: header # (header | query | cookie)
+ name: x-api-key
+
+# basic authentication
+security:
+  type: http
+  schema: basic
+
+# OAuth2
+security:
+  type: OAuth2
+  flows:
+    authorizationCode:
+      authorizationUrl: https://example.com/oauth/authorize
+      tokenUrl: https://example.com/oauth/token
+      scopes:
+        read: https://example.com/oauth/token
+        write:  Read access
+
+# openID connect
+components:
+  securitySchemes:
+    OpenIdAuth:
+      type: openIdConnect
+      openIdConnectUrl: https://example.com/.well-known/openid-configuration
+
+parameters: 
+  - in: # Specifies the parameter location (query, path, header, cookie).
+    name: # Specifies the parameter location (query, path, header, cookie).
+    description: # Provides a brief explanation of the parameter.
+    required: # Provides a brief explanation of the parameter.
+    deprecated: # Indicates whether the parameter is mandatory (true or false).
+    allowEmptyValue: # Marks the parameter as deprecated (no longer recommended).
+    style: # Defines how the parameter value is serialized in the request.
+    explode: # Defines how the parameter value is serialized in the request.
+    allowReserved: # Controls whether array/object parameters are split into multiple values.
+    schema: # Allows reserved URL characters without encoding.
+    example: # Defines the data type and validation rules of the parameter.
+    examples: # Provides multiple named example values.
+    content: # Provides multiple named example values.
+
+responses:
+  statusCode:
+    description:
+    headers:
+    content:
+    links:
+
+
+headers: # Defines additional headers associated with the encoded property.
+    description: # Provides a brief explanation of the header.
+    required: # Provides a brief explanation of the header.
+    deprecated: # Marks the header as deprecated.
+    allowEmptyValue: # Allows the header to have an empty value.
+    style: # Defines how the header value is serialized.
+    explode: # Controls whether complex header values are split into multiple parameters.
+    allowReserved: # Controls whether complex header values are split into multiple parameters.
+    schema: # Defines the data type and validation rules of the header.
+    example: # Provides a single example header value.
+    examples: # Provides multiple named example header values.
+    content: # Provides multiple named example header values.
+
+content:
+  mediaType:  # Specifies the content type of the request or response (e.g., application/json).
+   schema: #  Defines the data structure and validation rules for the media type.
+   example: #  Provides a single example value for the media content.
+   examples: #  Provides multiple named example values for the media content.
+   encoding: # Defines how individual properties are encoded (mainly for multipart/form-data or form submissions).
+
+
+encoding: # Defines how individual properties are encoded (mainly for multipart/form-data or form submissions).
+  contentype: # Specifies the media type used to encode a specific property.
+  headers: # Defines additional headers associated with the encoded property.
+    description: # Provides a brief explanation of the header.
+    required: # Provides a brief explanation of the header.
+    deprecated: # Marks the header as deprecated.
+    allowEmptyValue: # Allows the header to have an empty value.
+    style: # Defines how the header value is serialized.
+    explode: # Controls whether complex header values are split into multiple parameters.
+    allowReserved: # Controls whether complex header values are split into multiple parameters.
+    schema: # Defines the data type and validation rules of the header.
+    example: # Provides a single example header value.
+    examples: # Provides multiple named example header values.
+    content: # Provides multiple named example header values.
+  style: # Defines how the encoded property value is serialized.
+  explode: # Controls how arrays/objects are formatted during encoding.
+  allowReserved: # Allows reserved characters in the encoded value without percent-encoding.
+
+
+links:
+  linkName:
+    operationId:
+    operationRef:
+    parameters:
+    requestBody:
+    description:
+    server:
+
+requestBody:
+  description: #  Provides a brief explanation of the requestBody.
+  required: #P rovides a brief explanation of the requestBody.
+  content:  
+
+schema:
+  type: # Define data type [string, number, integer, boolean, array, object]
+  format: # Specific data format [email, uuid, date, date-time, password] 
+  title: # Short name of the schema
+  description: # Detailed explanation of the field
+  default: # Default value if not provide
+  example: # Example value show in swagger-UI
+  enum: # Restricte value to s listpecific
+  nullable: # Allow null value
+  deprecated: # Marks field as deprecated
+  readOnly: # field returend in reponse (not allowed in request)
+  writeOnly: # field allowed in request only (hidden in reponse)
+
+
+# scema ;- string
+              schema:
+                type: string
+                format: email/uuid/date
+                minLength: # string
+                maxLength: # string
+                pattern: # string
+                enum:
+              example:
+# full example
+# schema:
+#   type: string
+#   format: email
+#   minLength: 5
+#   maxLength: 50
+#   pattern: "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+#   enum:
+#     - user@example.com
+#     - admin@example.com
+# example: user@example.com 
+
+
+#scema:- number
+              schema:
+                type: number
+                format: float/double
+                maximum: # number and integer
+                exclusiveMaximum: # number and integer
+                exclusiveMinimum: # number and integer
+                enum:
+              example: 
+# schema:
+#   type: number
+#   format: double
+#   minimum: 1
+#   maximum: 1000
+#   exclusiveMinimum: false
+#   exclusiveMaximum: true
+#   enum:
+#     - 90.00
+#     - 80.00
+# example: 99.99
+
+# inumber  → decimal allowed (10.5)
+# integer → whole number only (10)
+
+# schema:- integer
+            schema:
+              type: integer 
+              format: 
+              minimum: # number and integer
+              maximum: # number and integer
+              exclusiveMaximum: # number and integer
+              exclusiveMinimum: # number and integer
+              enum:
+              required:
+            example:
+# schema:
+#   type: integer
+#   format: double
+#   minimum: 1
+#   maximum: 1000
+#   exclusiveMinimum: false
+#   exclusiveMaximum: true
+#   enum:
+#     - 90
+#     - 80
+# example: 99
+
+# schema: array
+            schema:
+              type: array 
+              items: # array
+                type: string/number/integer/boolean
+                format:
+                description:
+                enum:
+                example:
+              minItems: # array
+              maxItems: # array
+              uniqueItems: # array
+# schema:
+#   type: array
+#   items:
+#     type: string
+#     description: User roles
+#     enum: [admin, user, manager]
+#     example: admin
+#   minItems: 1
+#   maxItems: 5
+#   uniqueItems: true
+
+# example:
+#   - admin
+#   - user
+
+
+# schema: object
+            schema:
+              type: object
+              required: [fieldName, fieldName]
+              properties: # object
+                fieldName: 
+                  type: string/number/integer/boolean
+                  format:
+                  description:
+                  enum: 
+                  example:
+              additionalProperties: # object
+              maxProperties: # object
+              minProperties: # object
+schema:
+  # type: object
+  # required: [name, email]
+  # properties:
+  #   name:
+  #     type: string
+  #     description: User name
+  #     example: Tony Stark
+
+  #   email:
+  #     type: string
+  #     format: email
+  #     example: tony@stark.com
+
+  #   age:
+  #     type: integer
+  #     example: 35
+
+  #   role:
+  #     type: string
+  #     enum: [admin, user, manager]
+  #     example: admin
+
+  # additionalProperties: false
+
+# schema: nested object
+            schema:
+              type: object
+              required: [fieldName1, fieldName2]
+              properties: # object
+                fieldName1: 
+                  type: string/number/integer/boolean
+                  format:
+                  description:
+                  enum: 
+                  example:
+                fieldName2:
+                  type: object
+                  required: [fileldName1. fieldName2]
+                  properties:
+                    fileldName1:
+                     type:
+                     format:
+                     description:
+                     enum:
+                     example:
+# schema:
+#   type: object
+#   required: [name, profile]
+#   properties:
+#     name:
+#       type: string
+#       description: User name
+#       example: Tony Stark
+
+#     profile:
+#       type: object
+#       required: [age, city]
+#       properties:
+#         age:
+#           type: integer
+#           description: User age
+#           example: 35
+
+#         city:
+#           type: string
+#           description: User city
+#           example: New York
+
+#schema: Array of object
+            schema:
+              type: array 
+              items: # array
+                type: object
+                properties:
+                  fieldName1:
+                    type:
+                    format:
+                    description:
+                    enum:
+                    example:
+                  fileldName2:
+                    type:
+                    format:
+                    description:
+                    enum:
+                    example:
+              minItems: # array
+              maxItems: # array
+              uniqueItems: # array
+# schema:
+#   type: array
+#   items:
+#     type: object
+#     properties:
+#       id:
+#         type: string
+#         format: uuid
+#         description: User ID
+#         example: "550e8400-e29b-41d4-a716-446655440000"
+
+#       name:
+#         type: string
+#         description: User name
+#         example: "Tony Stark"
+
+#       role:
+#         type: string
+#         enum: [admin, user, manager]
+#         example: admin
+#     required: [id, name]
+
+#   minItems: 1
+#   maxItems: 100
+#   uniqueItems: false
+
+
+
+# allOf
+schema:
+  allOf: # Combines multiple schemas and requires the data to satisfy all of them.
+    - $ref: `#/components/schema/BearserUser` # References a reusable schema defined in components/schemas.
+    - type: # Specifies the data type of the combined schema (usually object).
+      properties: # Specifies the data type of the combined schema (usually object).
+       fieldName: # Defines additional fields added to the referenced schema.
+         type: # Represents a specific property being defined in the object.
+
+
+# oneOf
+schema:
+  oneOf: # Requires the data to match exactly one of the listed schemas.
+    - $ref: `#/components/schema/Admin` # References reusable schemas (e.g., Admin).
+    - $ref: `#components/schema/Manger # References reusable schemas (e.g., Manger).
+
+#anyOf
+schema:
+ oneOf: # Requires the data to match exactly one of the listed schemas.
+   - type: # Requires the data to match exactly one of the listed schemas.
+   - type: # Defines the data type for one possible valid schema.
+
+# not
+schema: #
+  not: #  Ensures the data must NOT match the specified schema.
+    type: # Ensures the data must NOT match the specified schema.
+
+# $ref(reusable schema)
+schema: 
+  $ref: `#/components/schema/User` # References reusable schemas (e.g., User).
+
+
+examples:
+  exampleName: # Unique identifier for a specific example.
+    summary: # Short title describing the example.
+    description: # Detailed explanation of the example.
+    value: # Actual example data included directly in the file.
+    externalValue: # URL pointing to an external file containing the example data.
+
+
+
+callbacks: # 
+  callbackName: # User-defined name for the callback.
+    expression: # Dynamic URL where the callback will be sent
+      method: # HTTP method used for the callback: 
+        summary: # Short description of callback operation.
+        description: # Detailed explanation of callback behavior.
+        parameters: # Optional parameters for callback request.
+        requestBody: # Defines payload sent during callback.
+        responses: # Defines expected response from callback receiver.
+        security: # Defines expected response from callback receiver.
+        deprecated: # Marks callback operation as deprecated.
+        servers: # Marks callback operation as deprecated.
+
+
+
+# all key and value
+paths: [object] [Definea all APi routes]
+  /path: [string] [Specifie endpoint URL]
+    method: [object] [HTTP mrthod GET, POST, PUT and DELETE]
+      tags: [string] [Groups endpoint in UI]
+      summary: [string] [Short description]
+      description: [string] [Detailed description]
+      operationId: [string] [Uniqe operstion name]
+      security: [array(object)] [Auth requirements]
+      deprecated: [boolean] [Marks endpoint outdated]
+      parameters: [array] [lists of inputs]
+        - name: [string] [parameters name]
+          in: query/path/headers/cookie [string] [Location(query/path/header/cookie)]
+          description: [string] [parameter explanation]
+          required: [boolean] [Mandorty or not]
+          deprecated: [boolean] [Marks deprecated para]
+          allowEmptyValue: [boolean] [Allow empty value]
+          style: [string] [Serialization format]
+          explode: [boolean] [split array/object value ]
+          allowReserved: [boolean] [Allow special char]
+          schema: [object] [Defines data structure]
+            type: string / number integer / array / object [staring] [Data type]
+            minLength: [integer] [minimum characters]
+            maxLength: [integer] [maximum characters]
+            pattern: [string] [Regex validation]
+            minimum: [number] [minimum value]
+            maximum: [number] [maximum value]
+            exclusiveMaximum: [boolean] [Greater than only]
+            exclusiveMinimum: [boolean] [Less than only]
+            items: [object] [Schema of each  them]
+              schema: [object] [Defines data structure]
+                type: string/number/integer/boolean
+                format: [staring] [Data type]
+                title: [string] [Schema name]
+                description: [string] [Field explanation]
+                default: [any] [Default value]
+                example: [any] [Sample value]
+                enum: [array] [allow value]
+                nullable: [boolean] [Allow null]
+                deprecated: [boolean] [Marks deprecated]
+                readOnly: [[boolean]] [Response only]
+                writeOnly: [boolean] [Reqest only]
+            minItems: [integer] [minimum items]
+            maxItems: [integer] [maximum items]
+            uniqueItems: [[boolean]] [No duplicates]
+            properties: [object] [Object Field]
+              fieldName: [string] [field name]
+                type: [staring] [Data type]
+                format: [staring] [Data type]
+                description: [string] [Field explanation]
+                example: [any] [Sample value]
+            additionalProperties: [boolean(object)] [Allow extra field]
+            maxProperties: [integer] [maximum field]
+            minProperties: [integer] [minimum field]
+            format: [staring] [Data type]
+            title: [string] [Schema name]
+            description: [string] [Field explanation]
+            default: [any] [Default value]
+            example: [any] [Sample value]
+            enum: [array] [allow value]
+            nullable: [boolean] [Allow null]
+            deprecated: [boolean] [Marks deprecated]
+            readOnly: [[boolean]] [Response only]
+            writeOnly: [boolean] [Reqest only]
+          example: [any] [single example]
+          examples: [object] [multiple example]
+            exampleName: [string] [ example name]
+              summary: [string] [Short description]
+              description: [string] [Detailed description]
+              value: [any] [example data]
+              externalValue: [string URL] [Externa example]
+          content: [object] [media type definition]
+            mediaType: [strign] [e.g. applicaion/json]
+              schema: [object] [Defines data structure]
+              example: [any] [Sample value]
+              examples:  [object] [multiple example]
+                encoding: [object] [multipart encoding rules]
+                  contentype: 
+                  headers: [object] [parameter header name]
+                    description:  [string] [parameter explanation]
+                    required: [boolean] [Mandorty or not]
+                    deprecated: [boolean] [Marks deprecated para]
+                    allowEmptyValue: [boolean] [Allow empty value]
+                    style: [string] [Serialization format]
+                    explode: [boolean] [split array/object value ]
+                    allowReserved: [boolean] [Allow special char]
+                    schema: [object] [Defines data structure]
+                    example: [any] [single example]
+                    examples: [object] [multiple example]
+                    content: [object] [media type definition]
+                  style: [string] [Serialization format]
+                  explode: [boolean] [split array/object value ]
+                  allowReserved: [boolean] [Allow special char]
+      responses:
+        statusCode: 
+          description:
+          headers:
+            description: 
+            required:
+            deprecated:
+            allowEmptyValue:
+            style:
+            explode:
+            allowReserved:
+            schema:
+              type: string / number integer / array / object
+              minLength: # string
+              maxLength: # string
+              pattern: # string
+              minimum: # number and integer
+              maximum: # number and integer
+              exclusiveMaximum: # number and integer
+              exclusiveMinimum: # number and integer
+              items: # array
+                schema:
+                  type: string/number/integer/boolean
+                  format:
+                  title:
+                  description:
+                  default:
+                  example:
+                  enum:
+                  nullable:
+                  deprecated:
+                  readOnly:
+                  writeOnly:
+              minItems: # array
+              maxItems: # array
+              uniqueItems: # array
+              properties: # object
+                fieldName: 
+                  type:
+                  format:
+                  description:
+                  example:
+              additionalProperties: # object
+              maxProperties: # object
+              minProperties: # object
+              format:
+              title:
+              description:
+              default:
+              example:
+              enum:
+              nullable:
+              deprecated:
+              readOnly:
+              writeOnly:
+            example:
+            examples:
+              exampleName:
+                summary:
+                description:
+                value:
+                externalValue: 
+            content:
+              mediaType:
+                schema:
+                example:
+                examples:
+                  encoding:
+                    contentype:
+                    headerss:
+                      description:
+                      required:
+                      deprecated:
+                      allowEmptyValue:
+                      style:
+                      explode:
+                      allowReserved: 
+                      schema:
+                      example:
+                      examples:
+                      content:
+                    style:
+                    explode:
+                    allowReserved:
+          content:
+            mediaType:
+              schema:
+                type: string / number integer / array / object
+                minLength: # string
+                maxLength: # string
+                pattern: # string
+                minimum: # number and integer
+                maximum: # number and integer
+                exclusiveMaximum: # number and integer
+                exclusiveMinimum: # number and integer
+                items: # array
+                  schema:
+                    type: string/number/integer/boolean
+                    format:
+                    title:
+                    description:
+                    default:
+                    example:
+                    enum:
+                    nullable:
+                    deprecated:
+                    readOnly:
+                    writeOnly:
+                minItems: # array
+                maxItems: # array
+                uniqueItems: # array
+                properties: # object
+                  fieldName: 
+                    type:
+                    format:
+                    description:
+                    example:
+                additionalProperties: # object
+                maxProperties: # object
+                minProperties: # object
+                format:
+                title:
+                description:
+                default:
+                example:
+                enum:
+                nullable:
+                deprecated:
+                readOnly:
+                writeOnly:
+              example:
+              examples:
+                encoding:
+                  contentype:
+                  headerss:
+                    description:
+                    required:
+                    deprecated:
+                    allowEmptyValue:
+                    style:
+                    explode:
+                    allowReserved: 
+                    schema:
+                    example:
+                    examples:
+                    content:
+                  style:
+                  explode:
+                  allowReserved:
+          links:
+            linkName:
+              operationId:
+              operationRef:
+              parameters:
+              requestBody:
+              description:
+              server:
+      requestBody:
+        description:
+        required:
+        content:
+          mediaType:
+            schema:
+              type: string / number integer / array / object
+              minLength: # string
+              maxLength: # string
+              pattern: # string
+              minimum: # number and integer
+              maximum: # number and integer
+              exclusiveMaximum: # number and integer
+              exclusiveMinimum: # number and integer
+              items: # array
+                schema:
+                  type: string/number/integer/boolean
+                  format:
+                  title:
+                  description:
+                  default:
+                  example:
+                  enum:
+                  nullable:
+                  deprecated:
+                  readOnly:
+                  writeOnly:
+              minItems: # array
+              maxItems: # array
+              uniqueItems: # array
+              properties: # object
+                fieldName: 
+                  type:
+                  format:
+                  description:
+                  example:
+              additionalProperties: # object
+              maxProperties: # object
+              minProperties: # object
+              format:
+              title:
+              description:
+              default:
+              example:
+              enum:
+              nullable:
+              deprecated:
+              readOnly:
+              writeOnly:
+            example:
+            examples:
+              encoding:
+                contentype:
+                headerss:
+                  description:
+                  required:
+                  deprecated:
+                  allowEmptyValue:
+                  style:
+                  explode:
+                  allowReserved: 
+                  schema:
+                  example:
+                  examples:
+                  content:
+                style:
+                explode:
+                allowReserved:
