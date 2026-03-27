@@ -11,7 +11,8 @@
     "eslint:fix": "eslint . fix",
     "dev": "cross-env NODE_ENV=development nodemon server.js",
     "prod": "cross-env NODE_ENV=production node server.js",
-    "test": "cross-env NODE_ENV=test node server.js"
+    "test": "cross-env NODE_ENV=test node server.js",
+    "swagger:get": "node docs/scripts/generateSwagger.js"
   },
   "repository": {
     "type": "git",

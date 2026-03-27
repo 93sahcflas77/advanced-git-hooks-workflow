@@ -1,5 +1,8 @@
-const config = require('../config/env');
+const config = require('../src/config/env');
 const swaggerJsdoc = require('swagger-jsdoc');
+const userSchema = require('./schemas/user.schema');
+const userPaths = require('./paths/user.paths');
+const tags = require('./tags');
 const path = require('path');
 
 const swaggerSpec = swaggerJsdoc({
@@ -17,30 +20,19 @@ const swaggerSpec = swaggerJsdoc({
         name: 'MIT',
       },
     },
+
+    tags,
+
     components: {
-      securitySchemes: {
-        BearerAuth: {
-          type: 'http',
-          scheme: 'bearer',
-          bearerFormat: 'JWT',
-
-          // in: "apikey",
-          // name: "apikey",
-
-          // flows: "oauth2",
-          // authorizationUrl: "oauth2",
-          // tokenUrl: "oauth2",
-          // scopes: "oauth2",
-
-          // openIdConnectUrl: "openID"
-        },
+      schemas: {
+        User: userSchema,
       },
     },
-    security: [
-      {
-        BearerAuth: [],
-      },
-    ],
+
+    paths: {
+      ...userPaths,
+    },
+
     servers: [
       {
         url: config.baseUrl,
@@ -48,6 +40,7 @@ const swaggerSpec = swaggerJsdoc({
       },
     ],
   },
+
   apis: [path.join(process.cwd(), './src/routes/*.js')],
 });
 
