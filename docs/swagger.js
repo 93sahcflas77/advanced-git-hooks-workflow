@@ -1,6 +1,7 @@
 const config = require('../src/config/env');
 const swaggerJsdoc = require('swagger-jsdoc');
 const userSchema = require('./schemas/user.schema');
+const mongooseSchemaUser = require('./mongoose_shema_to_swagger/userSchema');
 const userPaths = require('./paths/user.paths');
 const tags = require('./tags');
 const path = require('path');
@@ -25,7 +26,7 @@ const swaggerSpec = swaggerJsdoc({
 
     components: {
       schemas: {
-        User: userSchema,
+        User: mongooseSchemaUser,
       },
     },
 
