@@ -12,7 +12,7 @@
     "dev": "cross-env NODE_ENV=development nodemon server.js",
     "prod": "cross-env NODE_ENV=production node server.js",
     "test": "cross-env NODE_ENV=test node server.js",
-    "swagger:gen": "node src/utils/swagger.docs.js"
+    "swagger:gen": "node docs/swagger.docs.js"
   },
   "repository": {
     "type": "git",

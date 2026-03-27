@@ -1,4 +1,4 @@
-const config = require('../config/env');
+const config = require('../src/config/env');
 const swaggerJsdoc = require('swagger-jsdoc');
 const path = require('path');
 
