@@ -1,5 +1,6 @@
 const config = require('../src/config/env');
 const swaggerJsdoc = require('swagger-jsdoc');
+const userSchema = require('./schems/user.schema');
 const path = require('path');
 
 const swaggerSpec = swaggerJsdoc({
@@ -34,6 +35,9 @@ const swaggerSpec = swaggerJsdoc({
 
           // openIdConnectUrl: "openID"
         },
+      },
+      schemas: {
+        User: userSchema,
       },
     },
     security: [

@@ -3,39 +3,52 @@ const router = express.Router();
 
 /**
  * @openapi
- * /path:
- *   method:
- *     summary:
- *     description:
- *     tags:
- *     operationId:
+ * /api/user/{id}:
+ *   get:
+ *     summary: Get user by ID
+ *     description: Retrieve a single user using their unique ID
+ *     tags: [Users]
+ *     operationId: getUserById
  *
- *     x-module:
- *     x-permission:
- *     x-audit-log:
+ *     x-module: user
+ *     x-permission: user.read
+ *     x-audit-log: true
  *
- *     security:
+ *     security: []
  *
  *     parameters:
- *       - name:
- *         in:
- *         required:
- *         description:
+ *       - name: id
+ *         in: path
+ *         required: true
+ *         description: Unique ID
  *         schema:
- *         example:
+ *           type: string
+ *           format: uuid
+ *         example: "550e8400-e29b-41d4-a716-446655440000"
  *
  *     responses:
- *       statusCode:
- *         description:
+ *       "200":
+ *         description: User fetched successfully
  *         headers:
- *           headerName:
- *             description:
+ *           X-Request-ID:
+ *             description: Request tracking ID
  *             schema:
- *             example:
+ *               type: string
+ *             example: "req-123"
  *         content:
- *           mediaType:
+ *           application/json:
  *             schema:
- *             example:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/User'
+ *
+ *     requestBody:
+ *       description: Not required for GET
+ *       required: false
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
  */
 
 // Route.get("/", middleware, controller);
