@@ -1,0 +1,4 @@
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 08:12:23"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 08:12:23"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 08:12:23"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 08:12:23"}

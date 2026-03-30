@@ -16,6 +16,7 @@ const { appLimiter, authLimiter } = require('./config/rateLimit');
 const loadRoutes = require('./utils/loadRoutes');
 const apiRouter = express.Router();
 const routesPath = path.join(__dirname, 'routes');
+const logger = require('./utils/logger/logger');
 const app = express();
 
 app.disable('x-powered-by');
