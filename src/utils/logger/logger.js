@@ -56,6 +56,20 @@ const logger = winston.createLogger({
     new winston.transports.File({
       filename: `${logDir}/combined.log`,
     }),
+    new winston.transports.Http({
+      host: 'localhost',
+      port: 3000,
+      path: '/logs',
+      ssl: false,
+      format: winston.format.json(),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      batch: true,
+      batchCount: 5,
+      batchInterval: 2000,
+      timeout: 5000,
+    }),
   ],
   defaultMeta: {
     service: 'api-service',
