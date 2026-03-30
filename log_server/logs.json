@@ -1,0 +1,129 @@
+[
+  [
+    {
+      "level": "info",
+      "message": "App initialized in development mode",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "level": "fatal",
+      "message": "Application crashed due to a fatal error",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "level": "info",
+      "message": "Connect to MONGODB",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "level": "error",
+      "message": "Failed to connect to MONGODB",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "level": "info",
+      "message": "GET /api/users - 200 OK",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    }
+  ],
+  [
+    {
+      "level": "info",
+      "message": "Response sent",
+      "responseTime": "150ms",
+      "route": "/api/users",
+      "service": "api-service",
+      "status": 200,
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "email": "john.doe@example.com",
+      "id": "12345",
+      "level": "debug",
+      "message": "User data",
+      "name": "John Doe",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "level": "info",
+      "message": "User logged in",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58",
+      "userId": "12345"
+    },
+    {
+      "level": "info",
+      "message": "User logged out",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58",
+      "userId": "12345"
+    },
+    {
+      "level": "warn",
+      "message": "Invaild login attempt",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58",
+      "userId": "12345"
+    }
+  ],
+  [
+    {
+      "error": "Connection refused",
+      "level": "error",
+      "message": "Database connection error",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "fileName": "report.pdf",
+      "fileSize": "2MB",
+      "level": "info",
+      "message": "file uploaded successfully",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "key": "user_12345",
+      "level": "info",
+      "message": "Cache hit for key",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "key": "user_12345",
+      "level": "info",
+      "message": "Cache miss for key",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "duration": "500ms",
+      "jobName": "dailyReport",
+      "level": "info",
+      "message": "Scheduled job executed",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    }
+  ],
+  [
+    {
+      "error": "TypeError: Cannot read property 'name' of undefined",
+      "level": "error",
+      "message": "Unhandled exception",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    },
+    {
+      "level": "info",
+      "message": "Server running in development mode on port 3001",
+      "service": "api-service",
+      "timestamp": "2026-03-30 09:33:58"
+    }
+  ]
+]
