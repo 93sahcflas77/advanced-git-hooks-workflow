@@ -1,17 +1,16 @@
-const fs = require('fs');
-const path = require('path');
+const logger = require('./logger/logger');
 
-// const logDir = path.join(__dirname, "..", "..", "logs");
-// const logDir = path.resolve(__dirname, "..", "..", "logs");
-const logDir = path.join(process.cwd(), 'logs');
-
-if (!fs.existsSync(logDir)) {
-  fs.mkdirSync(logDir);
-}
-
-const accessLogStream = fs.createWriteStream(path.join(logDir, 'accexx.log'), { flags: 'a' });
+const accessLogStream = {
+  write: (message) => {
+    logger.info(message.trim());
+  },
+};
 
 // error log stream
-const errorLogStream = fs.createWriteStream(path.join(logDir, 'error.log'), { flags: 'a' });
+const errorLogStream = {
+  write: (message) => {
+    logger.error(message.trim());
+  },
+};
 
 module.exports = { accessLogStream, errorLogStream };

@@ -1,4 +1,5 @@
 const winston = require('winston');
+const config = require('../../config/env');
 const path = require('path');
 const fs = require('fs');
 
@@ -11,14 +12,16 @@ const customLevels = {
   fatal: 0,
   error: 1,
   warn: 2,
-  info: 3,
-  debug: 4,
+  http: 3,
+  info: 4,
+  debug: 5,
 };
 
 const customColors = {
   fatal: 'red',
   error: 'red',
   warn: 'yellow',
+  http: 'magenta',
   info: 'green',
   debug: 'blue',
 };
@@ -36,7 +39,7 @@ const consoleFormat = winston.format.combine(
 
 const logger = winston.createLogger({
   levels: customLevels,
-  level: 'debug',
+  level: config.nodeEnv === 'production' ? 'info' : 'debug',
 
   format: winston.format.combine(
     winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),

@@ -1,4 +1,6 @@
 const express = require('express');
+const logger = require('../utils/logger/logger');
+const { request } = require('../app');
 const router = express.Router();
 
 /**
@@ -51,7 +53,14 @@ const router = express.Router();
  *             type: object
  */
 
-// Route.get("/", middleware, controller);
+router.get('/', (req, res) => {
+  logger.info('fetching user', {
+    userId: 123456789,
+    requestId: req.requestID,
+    reIp: req.path,
+  });
+  res.json({ message: 'Hello, World!' });
+});
 
 /**
  * @openapi

@@ -1,8 +1,51 @@
-{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 08:12:23"}
-{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 08:12:23"}
-{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 08:12:23"}
-{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 08:12:23"}
-{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 09:33:58"}
-{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 09:33:58"}
-{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 09:33:58"}
-{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 09:33:58"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 10:48:33"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 10:48:33"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 10:48:33"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 10:48:33"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 10:49:06"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 10:49:06"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 10:49:06"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 10:49:06"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 10:50:42"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 10:50:42"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 10:50:42"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 10:50:42"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 10:54:59"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 10:54:59"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 10:54:59"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 10:54:59"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 10:58:03"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 10:58:03"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 10:58:03"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 10:58:03"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 11:04:38"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 11:04:38"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 11:04:38"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 11:04:38"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 11:05:26"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 11:05:26"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 11:05:26"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 11:05:26"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 11:09:45"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 11:09:45"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 11:09:45"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 11:09:45"}
+{"level":"error","message":"4c404dff-e67b-4983-b6bf-bfe28c821715 GET / 404 139 - 9.584 ms","service":"api-service","timestamp":"2026-03-30 11:09:59"}
+{"level":"error","message":"6f6e714b-017b-4ad0-9912-1d680932c0a5 GET / 404 139 - 1.628 ms","service":"api-service","timestamp":"2026-03-30 11:09:59"}
+{"level":"error","message":"8fb78ba4-00b4-467e-85e5-56e7cd3e1ccc GET /favicon.ico 404 150 - 0.375 ms","service":"api-service","timestamp":"2026-03-30 11:10:02"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 11:12:46"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 11:12:46"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 11:12:46"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 11:12:46"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 11:13:50"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 11:13:50"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 11:13:50"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 11:13:50"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 11:14:29"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 11:14:29"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 11:14:29"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 11:14:29"}
+{"level":"fatal","message":"Application crashed due to a fatal error","service":"api-service","timestamp":"2026-03-30 11:15:26"}
+{"level":"error","message":"Failed to connect to MONGODB","service":"api-service","timestamp":"2026-03-30 11:15:26"}
+{"error":"Connection refused","level":"error","message":"Database connection error","service":"api-service","timestamp":"2026-03-30 11:15:26"}
+{"error":"TypeError: Cannot read property 'name' of undefined","level":"error","message":"Unhandled exception","service":"api-service","timestamp":"2026-03-30 11:15:26"}
