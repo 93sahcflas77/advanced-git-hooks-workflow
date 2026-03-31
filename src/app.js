@@ -58,21 +58,21 @@ morgan.token('request-id', (req) => {
   return req.requestID;
 });
 
-if (config.nodeEnv === 'production') {
-  app.use(
-    morgan(':request-id :method :url :status :res[content-length] - :response-time ms', {
-      stream: accessLogStream,
-    }),
-  );
-  app.use(
-    morgan(':request-id :method :url :status :res[content-length] - :response-time ms', {
-      stream: errorLogStream,
-      skip: (req, res) => res.statusCode < 400,
-    }),
-  );
-} else {
-  app.use(morgan(':request-id :method :url :status :res[content-length] - :response-time ms'));
-}
+// if (config.nodeEnv === 'production') {
+app.use(
+  morgan(':request-id :method :url :status :res[content-length] - :response-time ms', {
+    stream: accessLogStream,
+  }),
+);
+app.use(
+  morgan(':request-id :method :url :status :res[content-length] - :response-time ms', {
+    stream: errorLogStream,
+    skip: (req, res) => res.statusCode < 400,
+  }),
+);
+// } else {
+//   app.use(morgan(':request-id :method :url :status :res[content-length] - :response-time ms'));
+// }
 
 app.use(
   express.json({

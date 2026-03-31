@@ -52,3 +52,12 @@
 {"level":"info","message":"Server running in production mode on port 8080","service":"api-service","timestamp":"2026-03-30 11:15:26"}
 {"level":"info","message":"fetching user","reIp":"/","requestId":"310e495e-be96-4275-8add-19e64cef4185","service":"api-service","timestamp":"2026-03-30 11:15:29","userId":123456789}
 {"level":"info","message":"310e495e-be96-4275-8add-19e64cef4185 GET /api/auth 304 - - 6.099 ms","service":"api-service","timestamp":"2026-03-30 11:15:29"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-03-31 07:47:50"}
+ELK TEST LOG Tue Mar 31 09:12:35 UTC 2026
+ELK FIXED Tue Mar 31 09:24:00 UTC 2026
+{"level":"info","message":"fetching user","reIp":"/","requestId":"8869a353-deb6-46ab-b6fd-362a6f5a4309","service":"api-service","timestamp":"2026-03-31 09:33:26","userId":123456789}
+{"level":"info","message":"8869a353-deb6-46ab-b6fd-362a6f5a4309 GET /api/auth 200 27 - 517.831 ms","service":"api-service","timestamp":"2026-03-31 09:33:27"}
+{"level":"info","message":"e7fe215f-9218-4dba-bd64-393a558148f8 GET /favicon.ico 404 150 - 76.186 ms","service":"api-service","timestamp":"2026-03-31 09:33:26"}
+{"level":"error","message":"e7fe215f-9218-4dba-bd64-393a558148f8 GET /favicon.ico 404 150 - 76.186 ms","service":"api-service","timestamp":"2026-03-31 09:33:26"}
+{"level":"info","message":"fetching user","reIp":"/","requestId":"a83406a2-7459-4dec-81c1-c58c5d192d8a","service":"api-service","timestamp":"2026-03-31 09:36:12","userId":123456789}
+{"level":"info","message":"a83406a2-7459-4dec-81c1-c58c5d192d8a GET /api/auth 304 - - 7.183 ms","service":"api-service","timestamp":"2026-03-31 09:36:12"}
