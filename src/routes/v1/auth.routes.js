@@ -1,6 +1,5 @@
 const express = require('express');
-const logger = require('../utils/logger/logger');
-const { request } = require('../app');
+const logger = require('../../utils/logger/logger');
 const router = express.Router();
 
 /**
