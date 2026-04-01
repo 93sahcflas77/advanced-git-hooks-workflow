@@ -6,4 +6,4 @@ const router = express.Router();
 // Route.put("/", middleware, controller);
 // Route.delete("/", middleware, controller);
 
-module.exports = router;    
+module.exports = router;

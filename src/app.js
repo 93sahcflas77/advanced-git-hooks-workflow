@@ -7,7 +7,8 @@ const morgan = require('morgan');
 const compression = require('compression');
 const hpp = require('hpp');
 const swaggerUi = require('swagger-ui-express');
-const swaggerSpec = require('../docs/swagger');
+const swaggerSpecV1 = require('../docs/v1/swagger');
+const swaggerSpecV2 = require('../docs/v2/swagger');
 const corsMiddleware = require('./config/cors');
 const requestIDMiddleware = require('./middleware/requestID');
 const { accessLogStream, errorLogStream } = require('./utils/log');
@@ -89,7 +90,8 @@ if (!config.cookieSecret) {
 }
 app.use(cookieParser(config.cookieSecret));
 
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use('/api/v1/api-docs', swaggerUi.serveFiles(swaggerSpecV1), swaggerUi.setup(swaggerSpecV1));
+app.use('/api/v2/api-docs', swaggerUi.serveFiles(swaggerSpecV2), swaggerUi.setup(swaggerSpecV2));
 
 loadRoutes(apiRouter, routesPath);
 app.use('/api', apiRouter);

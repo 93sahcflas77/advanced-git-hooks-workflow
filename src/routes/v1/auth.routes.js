@@ -7,7 +7,7 @@ const router = express.Router();
  *   get:
  *     summary: Get user by ID
  *     description: Retrieve a single user using their unique ID
- *     tags: [Users]
+ *     tags: [Users V1]
  *     operationId: getUserById
  *
  *     x-module: user
@@ -40,7 +40,7 @@ const router = express.Router();
  *             schema:
  *               type: array
  *               items:
- *                 $ref: '#/components/schemas/User'
+ *                 $ref: '#/components/schemas/UserV1'
  *
  *     requestBody:
  *       description: Not required for GET
