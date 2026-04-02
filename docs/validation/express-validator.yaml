@@ -1,0 +1,344 @@
+body(): # Checks the body of the request.
+query(): # Checks the query parameters of the request.
+param(): # Checks the route parameters of the request.
+header(): # Checks the headers of the request.
+cookie(): # Checks the cookies of the request.
+check(): # A generic validator that can check any part of the request (body, query, params, headers, cookies) based on the provided field name.
+validationResult(): # Retrieves the validation result after running the validation chain. It returns an object that contains any validation errors that occurred during the validation process.
+matchedData(): # Retrieves the validated data from the request after running the validation chain. It returns an object that contains only the fields that were validated and passed the validation rules.
+oneOf(): # Runs multiple validation chains and passes if any of them pass. It takes an array of validation chains as an argument.
+checkSchema(): # Validates the request based on a schema definition. The schema is an object where the keys are the field names and the values are objects that define the validation rules for each field.
+sanitize(): # A generic sanitizer that can sanitize any part of the request (body, query, params, headers, cookies) based on the provided field name.
+customSanitizer(): # Defines a custom sanitizer function.
+  sanitizer: function that takes the value and the request object, and returns the sanitized value.
+
+
+string-Validator:
+  isString(): # Checks if a value is a string.
+  isLength(options): # Checks if a string's length falls in a range.
+    options:
+      min: number
+      max: number
+  isAlpha(locale): # Checks if a string contains only letters (a-zA-Z). locale is optional and can be used to specify a locale-specific alphabet.
+  isAlphanumeric(locale): # Checks if a string contains only letters and numbers.
+  isLowercase(): # Checks if a string is lowercase.
+  isUppercase(): # Checks if a string is uppercase.
+  isNumeric(): # Checks if a string contains only numbers.
+  isEmail(options): # Checks if a string is an email.
+    options:
+      allow_display_name: boolean
+      require_display_name: boolean
+      allow_utf8_local_part: boolean
+      require_tld: boolean
+  isURL(options): # Checks if a string is a URL.
+    options:
+      protocols: array of strings
+      require_tld: boolean
+      require_protocol: boolean
+      require_host: boolean
+      require_port: boolean
+      allow_protocol_relative_urls: boolean
+  isUUID(version): # Checks if a string is a UUID
+    version: string (optional, can be '3', '4', '5', or 'all')
+  isStrongePassword(options): # Checks if a string is a strong password.
+    options:
+      minLength: number
+      minLowercase: number
+      minUppercase: number
+      minNumbers: number
+      minSymbols: number
+  .matches(pattern): # Checks if a string matches the given regular expression pattern.
+  .equals(comparison): # Checks if a string is equal to another string.
+  .contains(seed): # Checks if a string contains the seed.
+  
+Sanitizers-validators:
+  trim(): # Trims whitespace from both ends of a string.
+  ltrim(): # Trims whitespace from the left side of a string.
+  rtrim(): # Trims whitespace from the right side of a string.
+  escape(): # Escapes HTML characters in a string.
+  unescape(): # Unescapes HTML characters in a string.
+  normalizeEmail(options): # Normalizes an email address.
+    options:
+      all_lowercase: boolean
+      gmail_lowercase: boolean
+      gmail_remove_dots: boolean
+      gmail_remove_subaddress: boolean
+      yahoo_lowercase: boolean
+      outlookdotcom_lowercase: boolean
+      icloud_lowercase: boolean
+  toInt(): # Converts a string to an integer.
+  toFloat(): # Converts a string to a float.
+  toBoolean(): # Converts a string to a boolean.
+  toDate(): # Converts a string to a Date object.
+  toArray(): # Converts a string to an array.
+  toFloat(): # Converts a string to a float.
+  toInt(): # Converts a string to an integer.
+  toBoolean(): # Converts a string to a boolean.
+  toDate(): # Converts a string to a Date object.
+  toArray(): # Converts a string to an array. 
+
+number-Validator:
+  isInt(options): # Checks if a value is an integer.
+    options:
+      min: number
+      max: number
+      allow_leading_zeroes: boolean
+  isFloat(options): # Checks if a value is a float.
+    options:
+      min: number
+      max: number
+      allow_leading_zeroes: boolean
+  isDecimal(options): # Checks if a value is a decimal number.
+    options:
+      decimal_digits: string (e.g., '2' for exactly 2 decimal places, '1,3' for 1 to 3 decimal places)
+      force_decimal: boolean
+      locale: string (optional, can be 'en-US', 'de-DE', etc.)
+  isDivisibleBy(number): # Checks if a value is divisible by another number.
+  isPositive(): # Checks if a value is a positive number.
+  isNegative(): # Checks if a value is a negative number.
+  isFinite(): # Checks if a value is a finite number.
+  isFloat(options): # Checks if a value is a float.
+    options:
+      min: number
+      max: number
+      allow_leading_zeroes: boolean
+  isInt(options): # Checks if a value is an integer.
+    options:
+      min: number
+      max: number
+      allow_leading_zeroes: boolean  
+  isCurrency(options): # Checks if a value is a valid currency amount.
+    options:
+      symbol: string (optional, e.g., '$')
+      require_symbol: boolean
+      allow_space_after_symbol: boolean
+      allow_space_after_digits: boolean
+      digits_after_decimal: string (e.g., '2' for exactly 2 decimal places, '1,3' for 1 to 3 decimal places) 
+
+Date_validator:
+  isDate(options): # Checks if a value is a date.
+    options:
+      format: string (optional, e.g., 'YYYY-MM-DD')
+      strictMode: boolean
+      delimiters: array of strings (optional, e.g., ['-', '/'])
+  isAfter(date): # Checks if a date is after another date.
+  isBefore(date): # Checks if a date is before another date.
+  isISO8601(): # Checks if a date is in ISO 8601 format.
+  isRFC3339(): # Checks if a date is in RFC 3339 format.
+  isUnixTimestamp(): # Checks if a value is a valid Unix timestamp.
+  isTime(options): # Checks if a value is a time.
+    options:
+      format: string (optional, e.g., 'HH:mm:ss')
+      strictMode: boolean
+      delimiters: array of strings (optional, e.g., [':', '.']) 
+
+boolean_validator:
+  isBoolean(): # Checks if a value is a boolean.
+
+Array_validator:
+  isArray(options): # Checks if a value is an array.
+    options:
+      min: number
+      max: number
+      length: number
+      unique: boolean
+  isIn(values): # Checks if a value is in an array of allowed values.
+  isNotIn(values): # Checks if a value is not in an array of disallowed values.
+  contains(seed): # Checks if an array contains the seed value.
+  notContains(seed): # Checks if an array does not contain the seed value.
+  isEmpty(): # Checks if an array is empty.
+  isLength(options): # Checks if an array's length falls in a range.
+    options:
+      min: number
+      max: number
+      length: number
+  isUnique(): # Checks if an array contains only unique values.
+  isNotEmpty(): # Checks if an array is not empty.
+
+Object_validator:
+  isObject(): # Checks if a value is an object.
+  .exits(): # Checks if an object exists (i.e., is not null or undefined).
+  isEmpty(): # Checks if an object has no properties.
+  isLength(options): # Checks if an object has a certain number of properties.
+    options:
+      min: number
+      max: number
+      length: number
+
+files_validator:
+  onlly_used_for_files: .custom() # This is a placeholder for custom validation logic specific to file uploads, as express-validator does not have built-in validators for files. You can implement your own validation logic here based on the file properties (e.g., mimetype, size, etc.).
+
+
+Additional_validators:
+  .run(req): # Executes the validation chain against the request object.
+  .withMessage(message): # Specifies a custom error message for the previous validation.
+  .bail(): # Stops running validations if any of the previous ones have failed.
+  .optional(options): # Marks the field as optional, meaning that if the field is not present in the request, the validation will pass. If the field is present, it will be validated according to the specified rules.
+    options:
+      nullable: boolean (if true, allows null values)
+      checkFalsy: boolean (if true, treats falsy values like '', 0, false as missing)
+  .not(): # Negates the next validation, meaning that it will pass if the validation fails and fail if the validation passes.
+  .if(condition): # Conditionally runs the validation chain based on the result of the provided condition function.
+    condition: function that takes the request object and returns a boolean
+  .custom(validator): # Defines a custom validation function.
+    validator: function that takes the value and the request object, and returns a boolean or throws an error with a custom message.
+  .withMessage(message): # Specifies a custom error message for the previous validation.
+
+
+validation-chain-order:
+  Required field validation (e.g., exists() etc.): 
+    exists(): Checks if a field exists in the request (i.e., is not null or undefined).
+    optional(): Marks a field as optional, meaning that if the field is not present in the request, the validation will pass. If the field is present, it will be validated according to the specified rules.
+     - options:
+        nullable: boolean (if true, allows null values)
+        checkFalsy: boolean (if true, treats falsy values like '', 0, false as missing)
+  Type checking and value validation (e.g., isEmail(), isLength(), etc.):
+    isString(): Checks if a field is a string.
+    isLength(): Checks if a string's length falls in a range.
+    isInt(): Checks if a value is an integer.
+    isFloat(): Checks if a value is a float.
+    isBoolean(): Checks if a value is a boolean.
+    isDate(): Checks if a value is a date.
+    isArray(): Checks if a value is an array.
+    isObject(): Checks if a value is an object.
+  Format checking (e.g., matches(), isURL(), etc.):
+    isEmail(): Checks if a string is an email.
+    isURL(): Checks if a string is a URL.
+    matches(): Checks if a string matches a regular expression pattern.
+    isUUID(): Checks if a string is a UUID.
+    isIp(): Checks if a string is an IP address.
+    isMacAddress(): Checks if a string is a MAC address.
+    isJwt(): Checks if a string is a JSON Web Token.
+    isUUID(): Checks if a string is a UUID.
+    isMobilePhone(): Checks if a string is a mobile phone number.
+    isPostalCode(): Checks if a string is a postal code.
+    isCurrency(): Checks if a value is a valid currency amount.
+    isLength(): Checks if a string's length falls in a range.
+    isInt(): Checks if a value is an integer.
+    isFloat(): Checks if a value is a float.
+    isIn([....]): Checks if a value is in an array of allowed values.
+    not().isIn([....]): Checks if a value is not in an array of disallowed values.
+    equals(): Checks if a string is equal to another string.
+    contains(): Checks if a string contains a seed value.
+  sanitization (e.g., trim(), escape(), etc.):
+    trim(): Trims whitespace from both ends of a string.
+    ltrim(): Trims whitespace from the left side of a string.
+    rtrim(): Trims whitespace from the right side of a string.
+    escape(): Escapes HTML characters in a string.
+    unescape(): Unescapes HTML characters in a string.
+    normalizeEmail(): Normalizes an email address.
+    toInt(): Converts a string to an integer.
+    toFloat(): Converts a string to a float.
+    toBoolean(): Converts a string to a boolean.
+    toDate(): Converts a string to a Date object.
+    toArray(): Converts a string to an array.
+    match(pattern): Sanitizes a string by replacing matches of a regular expression pattern with a replacement string.
+  Business logic validation (e.g., custom()):
+    custom(): Defines a custom validation function that can contain any business logic you need. This is typically used for validations that cannot be easily expressed using the built-in validators, such as checking if a username already exists in the database, or if a password meets certain complexity requirements.
+    customSanitizer(): Defines a custom sanitizer function that can contain any business logic you need for sanitization. This is typically used for sanitizations that cannot be easily expressed using the built-in sanitizers, such as formatting a phone number in a specific way or normalizing a username.
+  Async validation (e.g., custom() with async functions):
+    custon(async fn): Defines a custom validation function that can be asynchronous. This is useful for validations that require asynchronous operations, such as database queries or API calls. The async function should return a promise that resolves if the validation passes and rejects with an error message if the validation fails.
+
+    if(condition): Conditionally runs the validation chain based on the result of the provided condition function. This allows you to run certain validations only if specific conditions are met, which can be useful for complex validation scenarios.
+    not(): Negates the next validation, meaning that it will pass if the validation fails and fail if the validation passes. This can be useful for creating validations that check for the absence of certain conditions.
+    bail(): Stops running validations if any of the previous ones have failed. This can be useful for optimizing the validation process by preventing unnecessary validations from running after a failure has already been detected.
+
+# FIELD →
+#   required? → exists()
+#   optional? → optional()
+#   type? → isString/isInt
+#   format? → isEmail/isURL
+#   rules? → isLength/isIn
+#   logic? → custom()
+#   clean? → trim/toInt
+
+# STEP 1: IDENTIFY INPUT (API DESIGN)
+
+# Example API:
+
+# POST /register
+# Body:
+# {
+#   "username": "tony",
+#   "email": "tony@mail.com",
+#   "password": "123456",
+#   "age": 25
+# }
+
+
+# STEP 2: DEFINE REQUIRED FIELDS
+
+# Ask:
+# Which fields MUST exist?
+# 👉 Example:
+
+# username ✔
+# email ✔
+# password ✔
+# age ❌ optional
+
+
+# 🔹 STEP 3: DEFINE DATA TYPES
+# username → string
+# email → string
+# password → string
+# age → number
+
+
+# 🔹 STEP 4: DEFINE FORMAT RULES
+# email → must be email format
+# password → min 6 chars
+# username → min 3 chars
+# age → >= 18
+
+
+# 🔹 STEP 5: DEFINE BUSINESS RULES
+# username ≠ "admin"
+# email must be unique
+# password confirm match
+
+
+# 🔹 STEP 6: DEFINE SECURITY RULES
+# sanitize input
+# trim strings
+# convert numbers
+
+
+# basic example
+# router.post('/', [
+#   body("username").isString().isLength({ min: 3 }).withMessage("Username must be at least 3 characters long"),
+#   body("password").isString().isLength({ min: 6 }).withMessage("Password must be at least 6 characters long"),
+#   body("email").isEmail().withMessage("Email must be a valid email address"),
+#   body("age").optional().isInt({ min: 18 }).withMessage("Age must be at least 18"),
+# ], (req, res) => {
+
+#   const error = validationResult(req);
+#   if (!error.isEmpty()) {
+#     return res.status(400).json({ errors: error.array() });
+#   }
+
+#   logger.error('Validation passed, processing request...', error)
+
+#   const data = matchedData(req);
+#   logger.info('Matched data:', data);
+  
+#   res.json({ message: 'Hello, World!' });
+# });
+
+
+# middleware/vaulidaion.js
+# exports file:-  validate
+# other folder import:- import validate 
+
+# validate/schemas/common.schema.js
+# exports file:-  userValidationSchema
+# impot commonSchema:- userValidationSchema
+
+# then use it in the route like this:- validate(userValidationSchema)
+# then use it in the route multiple schema like this:- validate([userValidationSchema, anotherSchema])
+# hide sensitive value:- validate(userValidationSchema, { showValue: false })
+# log validated data:- validate(userValidationSchema, { logValidatedData: true })
+# hide sensitive value and log validated data:- validate(userValidationSchema, { showValue: false, logValidatedData: true })
+# Custom error message + status code:- validate(userValidationSchema, { errorMessage: 'Custom error message', statusCode: 400 })  })
+
+# all matchData stored: - req.validated

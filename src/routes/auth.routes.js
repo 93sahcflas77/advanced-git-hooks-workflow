@@ -1,6 +1,7 @@
 const express = require('express');
 const logger = require('../utils/logger/logger');
-const { request } = require('../app');
+const { validate } = require('../middleware/validation.js');
+const { userSchema } = require('../validators/inex.js');
 const router = express.Router();
 
 /**
@@ -53,13 +54,11 @@ const router = express.Router();
  *             type: object
  */
 
-router.get('/', (req, res) => {
-  logger.info('fetching user', {
-    userId: 123456789,
-    requestId: req.requestID,
-    reIp: req.path,
-  });
-  res.json({ message: 'Hello, World!' });
+router.post('/', validate(userSchema), (req, res) => {
+  const data = req.validated;
+  logger.info('Received data:', data);
+
+  res.json({ message: 'Hello, World!', data });
 });
 
 /**
