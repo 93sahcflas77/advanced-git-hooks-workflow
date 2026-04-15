@@ -10,6 +10,7 @@ const confg = {
   cookieSecret: process.env.COOKIE_SECRET,
   originsite: process.env.CLIENT_URL,
   baseUrl: process.env.BASE_URL,
+  mongoUri: process.env.MONGO_URI,
 };
 
 module.exports = confg;
