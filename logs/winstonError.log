@@ -1,0 +1,57 @@
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:29:56"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:29:56"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:29:56"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:07"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:07"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:07"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:17"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:17"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:17"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:27"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:27"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:27"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:37"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:37"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:37"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:47"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:47"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:47"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:58"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:58"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:58"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:08"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:08"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:08"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:18"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:18"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:18"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:28"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:28"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:28"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:38"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:38"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:38"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:48"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:48"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:48"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:58"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:58"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:58"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:32:08"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:32:08"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:32:08"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:32:18"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:32:18"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:32:18"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:32:28"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:32:28"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:32:28"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:32:38"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:32:38"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:32:38"}
+{"level":"error","message":"65e41585-6c07-4a79-9506-b0a25c0bf8c1 GET /api/auth 404 147 - 10.109 ms","service":"api-service","timestamp":"2026-04-16 13:33:15"}
+{"level":"error","message":"af6485dc-2aa7-4203-98a7-4a9d56484716 GET /favicon.ico 404 150 - 2.353 ms","service":"api-service","timestamp":"2026-04-16 13:34:40"}
+{"level":"error","message":"0387ddac-0d11-4b52-92f7-94c4ad037039 POST /api/auth/upload 500 - - 12.189 ms","service":"api-service","timestamp":"2026-04-16 13:40:03"}
+{"level":"error","message":"398ca5fb-17d8-4dbb-a6bd-6ec2fd5df3af POST /api/auth/upload 500 - - 4.038 ms","service":"api-service","timestamp":"2026-04-16 13:40:43"}
+{"level":"error","message":"21c32d67-8bad-496c-aef1-8443d47bf16f POST /api/auth/upload 500 - - 3.545 ms","service":"api-service","timestamp":"2026-04-16 13:43:06"}
+{"level":"error","message":"9b2e7b1d-08f3-406f-8622-e3bef7569b92 POST /api/auth/upload 500 - - 13.986 ms","service":"api-service","timestamp":"2026-04-16 13:43:38"}

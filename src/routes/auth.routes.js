@@ -2,6 +2,7 @@ const express = require('express');
 const logger = require('../utils/logger/logger');
 const { validate } = require('../middleware/validation.js');
 const { userSchema } = require('../validators/inex.js');
+const upload = require('../middleware/multer.js');
 const router = express.Router();
 
 /**
@@ -54,11 +55,23 @@ const router = express.Router();
  *             type: object
  */
 
+router.get('/', (req, res) => {
+  res.json({ message: 'Hello, World!' });
+});
+
 router.post('/', validate(userSchema), (req, res) => {
   const data = req.validated;
   logger.info('Received data:', data);
 
   res.json({ message: 'Hello, World!', data });
+});
+
+router.post('/upload', upload.array('file', 6), (req, res) => {
+  logger.info('Files uploaded:', req.files);
+  res.json({
+    message: 'Files uploaded',
+    files: req.files,
+  });
 });
 
 /**
