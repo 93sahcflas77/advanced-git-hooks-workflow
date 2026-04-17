@@ -3,6 +3,7 @@ const logger = require('../utils/logger/logger');
 const { validate } = require('../middleware/validation.js');
 const { userSchema } = require('../validators/inex.js');
 const upload = require('../middleware/multer.js');
+const { client } = require('../config/minio.js');
 const router = express.Router();
 
 /**
@@ -66,11 +67,23 @@ router.post('/', validate(userSchema), (req, res) => {
   res.json({ message: 'Hello, World!', data });
 });
 
-router.post('/upload', upload.array('file', 6), (req, res) => {
-  logger.info('Files uploaded:', req.files);
+router.post('/upload-file', upload.single('file'), async (req, res) => {
+  const objectName = `${Date.now()}-${req.file.originalname}`;
+  const bucketName = 'chandan';
+
+  const upload_data = await client.putObject(
+    bucketName,
+    objectName,
+    req.file.buffer,
+    req.file.size,
+    {
+      'Content-Type': req.file.mimetype,
+    },
+  );
+  logger.info('Files uploaded:', upload_data);
   res.json({
-    message: 'Files uploaded',
-    files: req.files,
+    message: '✅ File uploaded successfully',
+    file: objectName,
   });
 });
 
