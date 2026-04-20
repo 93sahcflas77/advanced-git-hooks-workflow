@@ -1,72 +1,77 @@
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:29:56"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:29:56"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:29:56"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:07"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:07"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:07"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:17"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:17"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:17"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:27"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:27"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:27"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:37"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:37"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:37"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:47"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:47"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:47"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:30:58"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:30:58"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:30:58"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:08"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:08"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:08"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:18"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:18"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:18"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:28"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:28"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:28"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:38"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:38"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:38"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:48"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:48"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:48"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:31:58"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:31:58"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:31:58"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:32:08"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:32:08"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:32:08"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:32:18"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:32:18"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:32:18"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:32:28"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:32:28"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:32:28"}
-{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-16 11:32:38"}
-{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-16 11:32:38"}
-{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-16 11:32:38"}
-{"level":"error","message":"65e41585-6c07-4a79-9506-b0a25c0bf8c1 GET /api/auth 404 147 - 10.109 ms","service":"api-service","timestamp":"2026-04-16 13:33:15"}
-{"level":"error","message":"af6485dc-2aa7-4203-98a7-4a9d56484716 GET /favicon.ico 404 150 - 2.353 ms","service":"api-service","timestamp":"2026-04-16 13:34:40"}
-{"level":"error","message":"0387ddac-0d11-4b52-92f7-94c4ad037039 POST /api/auth/upload 500 - - 12.189 ms","service":"api-service","timestamp":"2026-04-16 13:40:03"}
-{"level":"error","message":"398ca5fb-17d8-4dbb-a6bd-6ec2fd5df3af POST /api/auth/upload 500 - - 4.038 ms","service":"api-service","timestamp":"2026-04-16 13:40:43"}
-{"level":"error","message":"21c32d67-8bad-496c-aef1-8443d47bf16f POST /api/auth/upload 500 - - 3.545 ms","service":"api-service","timestamp":"2026-04-16 13:43:06"}
-{"level":"error","message":"9b2e7b1d-08f3-406f-8622-e3bef7569b92 POST /api/auth/upload 500 - - 13.986 ms","service":"api-service","timestamp":"2026-04-16 13:43:38"}
-{"level":"error","message":"159310be-0585-487f-9f98-f99bde632619 GET /favicon.ico 404 150 - 3.139 ms","service":"api-service","timestamp":"2026-04-17 06:28:22"}
-{"level":"error","message":"MinIO connection failed client is not defined","service":"api-service","stack":"ReferenceError: client is not defined\n    at checkconnection (/home/tony/backend/src/config/minio.js:19:9)\n    at startServer (/home/tony/backend/server.js:10:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-04-17 09:27:16"}
-{"amzId2":"dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8","amzRequestid":"18A71AD73A844136","code":"SignatureDoesNotMatch","hostid":"dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8","level":"error","message":"MinIO connection failed The request signature we calculated does not match the signature you provided. Check your key and signing method.","name":"S3Error","requestid":"18A71AD73A844136","resource":"/","service":"api-service","stack":"S3Error: The request signature we calculated does not match the signature you provided. Check your key and signing method.\n    at parseError (/home/tony/backend/node_modules/minio/dist/main/internal/xml-parser.js:59:13)\n    at Object.parseResponseError (/home/tony/backend/node_modules/minio/dist/main/internal/xml-parser.js:114:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async Client.makeRequestStreamAsync (/home/tony/backend/node_modules/minio/dist/main/internal/client.js:524:19)\n    at async Client.listBuckets (/home/tony/backend/node_modules/minio/dist/main/internal/client.js:1298:21)\n    at async checkconnection (/home/tony/backend/src/config/minio.js:19:9)\n    at async startServer (/home/tony/backend/server.js:10:5)","timestamp":"2026-04-17 09:28:09"}
-{"amzId2":"dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8","amzRequestid":"18A71ADDC0F914FF","code":"SignatureDoesNotMatch","hostid":"dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8","level":"error","message":"MinIO connection failed The request signature we calculated does not match the signature you provided. Check your key and signing method.","name":"S3Error","requestid":"18A71ADDC0F914FF","resource":"/","service":"api-service","stack":"S3Error: The request signature we calculated does not match the signature you provided. Check your key and signing method.\n    at parseError (/home/tony/backend/node_modules/minio/dist/main/internal/xml-parser.js:59:13)\n    at Object.parseResponseError (/home/tony/backend/node_modules/minio/dist/main/internal/xml-parser.js:114:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async Client.makeRequestStreamAsync (/home/tony/backend/node_modules/minio/dist/main/internal/client.js:524:19)\n    at async Client.listBuckets (/home/tony/backend/node_modules/minio/dist/main/internal/client.js:1298:21)\n    at async checkconnection (/home/tony/backend/src/config/minio.js:19:9)\n    at async startServer (/home/tony/backend/server.js:10:5)","timestamp":"2026-04-17 09:28:37"}
-{"amzId2":"dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8","amzRequestid":"18A71AEB78C2EA87","code":"InvalidAccessKeyId","hostid":"dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8","level":"error","message":"MinIO connection failed The Access Key Id you provided does not exist in our records.","name":"S3Error","requestid":"18A71AEB78C2EA87","resource":"/","service":"api-service","stack":"S3Error: The Access Key Id you provided does not exist in our records.\n    at parseError (/home/tony/backend/node_modules/minio/dist/main/internal/xml-parser.js:59:13)\n    at Object.parseResponseError (/home/tony/backend/node_modules/minio/dist/main/internal/xml-parser.js:114:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async Client.makeRequestStreamAsync (/home/tony/backend/node_modules/minio/dist/main/internal/client.js:524:19)\n    at async Client.listBuckets (/home/tony/backend/node_modules/minio/dist/main/internal/client.js:1298:21)\n    at async checkconnection (/home/tony/backend/src/config/minio.js:19:9)\n    at async startServer (/home/tony/backend/server.js:10:5)","timestamp":"2026-04-17 09:29:36"}
-{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"MinIO connection failed connect ECONNREFUSED 127.0.0.1:9000","port":9000,"service":"api-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:9000\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)","syscall":"connect","timestamp":"2026-04-17 09:43:53"}
-{"amzId2":"dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8","amzRequestid":"18A71C101C8DE0F9","code":"InvalidAccessKeyId","hostid":"dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8","level":"error","message":"MinIO connection failed The Access Key Id you provided does not exist in our records.","name":"S3Error","requestid":"18A71C101C8DE0F9","resource":"/","service":"api-service","stack":"S3Error: The Access Key Id you provided does not exist in our records.\n    at parseError (/home/tony/backend/node_modules/minio/dist/main/internal/xml-parser.js:59:13)\n    at Object.parseResponseError (/home/tony/backend/node_modules/minio/dist/main/internal/xml-parser.js:114:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async Client.makeRequestStreamAsync (/home/tony/backend/node_modules/minio/dist/main/internal/client.js:524:19)\n    at async Client.listBuckets (/home/tony/backend/node_modules/minio/dist/main/internal/client.js:1298:21)\n    at async checkconnection (/home/tony/backend/src/config/minio.js:19:9)\n    at async startServer (/home/tony/backend/server.js:10:5)","timestamp":"2026-04-17 09:50:33"}
-{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"MinIO connection failed connect ECONNREFUSED 127.0.0.1:3001","port":3001,"service":"api-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:3001\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)","syscall":"connect","timestamp":"2026-04-17 10:05:42"}
-{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"MinIO connection failed connect ECONNREFUSED 127.0.0.1:3001","port":3001,"service":"api-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:3001\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)","syscall":"connect","timestamp":"2026-04-17 10:05:44"}
-{"level":"error","message":"be89fc11-d57a-41cf-a4a8-a3bac9b87c1b POST /api/auth/upload 500 - - 4.669 ms","service":"api-service","timestamp":"2026-04-17 10:06:07"}
-{"level":"error","message":"1256fcc7-5de7-40a6-85db-6f86c3fda23f POST /api/auth/upload 500 - - 6.479 ms","service":"api-service","timestamp":"2026-04-17 10:07:48"}
-{"level":"error","message":"c0be799f-0e14-48c6-b542-68ee2bf068a8 POST /api/auth/upload 500 - - 18908.744 ms","service":"api-service","timestamp":"2026-04-17 10:23:33"}
-{"level":"error","message":"96fe1cf1-3e8d-4f4f-a345-371410290701 POST /api/auth/upload 500 - - 18779.192 ms","service":"api-service","timestamp":"2026-04-17 10:24:53"}
-{"level":"error","message":"99ff66d8-fe61-472d-baa3-7677b44e87ac POST /api/auth/upload 500 - - 64.435 ms","service":"api-service","timestamp":"2026-04-17 10:47:11"}
-{"level":"error","message":"baf2c04c-b07d-498d-8c8d-c17e3f460887 POST /api/auth/upload 500 - - 3150.825 ms","service":"api-service","timestamp":"2026-04-17 10:56:15"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:09:16"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:09:16"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:09:16"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:09:36"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:09:36"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:09:36"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:09:51"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:09:51"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:09:51"}
+{"code":"GEN_001","data":null,"errors":[],"level":"error","message":"Internal Server Error","method":"GET","service":"api-service","stack":"ApiError: Internal Server Error\n    at /home/tony/backend/src/routes/auth.routes.js:93:17\n    at Layer.handleRequest (/home/tony/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/home/tony/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/tony/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/home/tony/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/tony/backend/node_modules/router/lib/layer.js:152:17)\n    at /home/tony/backend/node_modules/router/index.js:295:15\n    at processParams (/home/tony/backend/node_modules/router/index.js:582:12)\n    at next (/home/tony/backend/node_modules/router/index.js:291:5)\n    at router.handle (/home/tony/backend/node_modules/router/index.js:186:3)","statusCode":{"code":"VAL_001","errors":["Email is required","Password too short"],"message":"Validation failed","statusCode":400},"timestamp":"2026-04-20 14:09:52","url":"/api/auth/test-error"}
+{"level":"error","message":"fbff92b7-64de-46bf-8f7f-34fde96bf9cb GET /api/auth/test-error 500 - - 11.218 ms","service":"api-service","timestamp":"2026-04-20 14:09:52"}
+{"level":"error","message":"920470f2-05a9-4a7c-bf7d-b05d66404557 GET /api/auth/error 404 153 - 1.533 ms","service":"api-service","timestamp":"2026-04-20 14:09:56"}
+{"code":"GEN_001","data":null,"errors":[],"level":"error","message":"Internal Server Error","method":"GET","service":"api-service","stack":"ApiError: Internal Server Error\n    at /home/tony/backend/src/routes/auth.routes.js:93:17\n    at Layer.handleRequest (/home/tony/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/home/tony/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/tony/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/home/tony/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/tony/backend/node_modules/router/lib/layer.js:152:17)\n    at /home/tony/backend/node_modules/router/index.js:295:15\n    at processParams (/home/tony/backend/node_modules/router/index.js:582:12)\n    at next (/home/tony/backend/node_modules/router/index.js:291:5)\n    at router.handle (/home/tony/backend/node_modules/router/index.js:186:3)","statusCode":{"code":"VAL_001","errors":["Email is required","Password too short"],"message":"Validation failed","statusCode":400},"timestamp":"2026-04-20 14:10:12","url":"/api/auth/test-error"}
+{"level":"error","message":"f4158af9-0259-49de-927c-4ef9174cc062 GET /api/auth/test-error 500 - - 2.207 ms","service":"api-service","timestamp":"2026-04-20 14:10:12"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:11:29"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:11:29"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:11:29"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:11:39"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:11:39"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:11:39"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:11:49"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:11:49"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:11:49"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:11:59"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:11:59"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:11:59"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:12:09"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:12:09"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:12:09"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:12:19"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:12:19"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:12:19"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:12:29"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:12:29"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:12:29"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:12:39"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:12:39"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:12:39"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:12:48"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:12:48"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:12:48"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:12:58"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:12:58"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:12:58"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:13:20"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:13:20"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:13:20"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:13:30"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:13:30"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:13:30"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:13:40"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:13:40"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:13:40"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:13:49"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:13:49"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:13:49"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:13:59"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:13:59"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:13:59"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:14:09"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:14:09"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:14:09"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:14:18"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:14:18"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:14:18"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:14:28"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:14:28"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:14:28"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:14:38"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:14:38"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:14:38"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:14:48"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:14:48"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:14:48"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-20 14:15:05"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-20 14:15:05"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-20 14:15:05"}

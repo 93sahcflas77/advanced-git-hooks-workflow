@@ -10,6 +10,7 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('../docs/swagger');
 const corsMiddleware = require('./config/cors');
 const requestIDMiddleware = require('./middleware/requestID');
+const errorHandler = require('./middleware/error.middleware');
 const { accessLogStream, errorLogStream } = require('./utils/log');
 const { appLimiter, authLimiter } = require('./config/rateLimit');
 const loadRoutes = require('./utils/loadRoutes');
@@ -95,15 +96,6 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 loadRoutes(apiRouter, routesPath);
 app.use('/api', apiRouter);
 
-app.use((err, req, res, next) => {
-  if (err.type === 'entity.too.large') {
-    res.status(413).json({
-      error: {
-        message: 'Payload too large',
-      },
-    });
-  }
-  next(err);
-});
+app.use(errorHandler);
 
 module.exports = app;

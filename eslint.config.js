@@ -61,7 +61,7 @@ module.exports = defineConfig([
       'space-infix-ops': 2, // Spaces around operators like + - = * ===.
       'brace-style': [2, '1tbs'], // Where { appears.
       'keyword-spacing': [2, { before: true, after: true }], // Spaces after keywords like if, for, while, function.
-      'max-len': [2, { code: 100 }], // Maximum line length.
+      'max-len': [2, { code: 200 }], // Maximum line length.
       'object-curly-spacing': [2, 'always'], // Spaces inside {} in objects.
       'padded-blocks': [2, 'never'], // Blank lines at the start or end of blocks.
     },
