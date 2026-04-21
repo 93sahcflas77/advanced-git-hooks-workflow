@@ -254,3 +254,109 @@
 {"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-20 14:15:05"}
 {"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-20 14:15:10"}
 {"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-20 14:15:10"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 06:18:35"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 06:18:35"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 06:18:40"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 06:18:40"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 06:18:40"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 06:18:40"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 06:18:40"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 06:18:45"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 06:18:45"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 06:18:47"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 06:18:47"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 06:18:52"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 06:18:52"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 06:18:52"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 06:18:52"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 06:18:52"}
+{"code":"GEN_001","data":null,"errors":[],"level":"error","message":"Internal Server Error","method":"GET","service":"api-service","stack":"ApiError: Internal Server Error\n    at /home/tony/backend/src/routes/auth.routes.js:94:5\n    at Layer.handleRequest (/home/tony/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/home/tony/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/tony/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/home/tony/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/tony/backend/node_modules/router/lib/layer.js:152:17)\n    at /home/tony/backend/node_modules/router/index.js:295:15\n    at processParams (/home/tony/backend/node_modules/router/index.js:582:12)\n    at next (/home/tony/backend/node_modules/router/index.js:291:5)\n    at router.handle (/home/tony/backend/node_modules/router/index.js:186:3)","statusCode":{"code":"VAL_001","errors":["Email is required","Password too short"],"message":"Validation failed","statusCode":400},"timestamp":"2026-04-21 06:21:04","url":"/api/auth/test-error"}
+{"level":"info","message":"f99d6409-a9e8-4862-84ac-8537a3b680ba GET /api/auth/test-error 500 - - 8.042 ms","service":"api-service","timestamp":"2026-04-21 06:21:04"}
+{"level":"error","message":"f99d6409-a9e8-4862-84ac-8537a3b680ba GET /api/auth/test-error 500 - - 8.042 ms","service":"api-service","timestamp":"2026-04-21 06:21:04"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 08:14:42"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 08:14:42"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 08:14:47"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 08:14:47"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 08:14:47"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 08:14:47"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 08:14:47"}
+{"code":"GEN_001","data":null,"errors":[],"level":"error","message":"Internal Server Error","method":"GET","service":"api-service","stack":"ApiError: Internal Server Error\n    at /home/tony/backend/src/routes/auth.routes.js:94:5\n    at Layer.handleRequest (/home/tony/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/home/tony/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/tony/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/home/tony/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/tony/backend/node_modules/router/lib/layer.js:152:17)\n    at /home/tony/backend/node_modules/router/index.js:295:15\n    at processParams (/home/tony/backend/node_modules/router/index.js:582:12)\n    at next (/home/tony/backend/node_modules/router/index.js:291:5)\n    at router.handle (/home/tony/backend/node_modules/router/index.js:186:3)","statusCode":{"code":"VAL_001","errors":["Email is required","Password too short"],"message":"Validation failed","statusCode":400},"timestamp":"2026-04-21 08:15:29","url":"/api/auth/test-error"}
+{"level":"info","message":"fd9655cb-5464-42df-8c72-efb8478da5f7 GET /api/auth/test-error 500 - - 12.124 ms","service":"api-service","timestamp":"2026-04-21 08:15:29"}
+{"level":"error","message":"fd9655cb-5464-42df-8c72-efb8478da5f7 GET /api/auth/test-error 500 - - 12.124 ms","service":"api-service","timestamp":"2026-04-21 08:15:29"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 08:20:30"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 08:20:30"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 08:20:34"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 08:20:34"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 08:20:39"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 08:20:39"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 08:20:39"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 08:20:39"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 08:20:39"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 08:20:44"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 08:20:44"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 08:20:49"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 08:20:49"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 08:20:49"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 08:20:49"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 08:20:49"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 08:21:08"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 08:21:08"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 08:21:13"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 08:21:13"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 08:21:13"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 08:21:13"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 08:21:13"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 08:21:18"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 08:21:18"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 08:21:20"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 08:21:20"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 08:21:22"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 08:21:22"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 08:21:23"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 08:21:23"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 08:21:28"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 08:21:28"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 08:21:28"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 08:21:29"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 08:21:29"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 08:22:40"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 08:22:40"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 09:10:49"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 09:10:49"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 09:10:54"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 09:10:54"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 09:10:54"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 09:10:54"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 09:10:54"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 09:12:25"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 09:12:25"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 09:12:30"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 09:12:30"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 09:12:30"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 09:12:30"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 09:12:30"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 09:12:34"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 09:12:34"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 09:12:36"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 09:12:36"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 09:12:38"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 09:12:38"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 09:12:43"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 09:12:43"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 09:12:43"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 09:12:43"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 09:12:43"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 09:12:46"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 09:12:46"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 09:12:49"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 09:12:49"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-21 09:12:54"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-21 09:12:54"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-21 09:12:54"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-21 09:12:54"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-21 09:12:54"}
+{"code":"GEN_001","data":null,"errors":[],"level":"error","message":"Internal Server Error","method":"GET","service":"api-service","stack":"ApiError: Internal Server Error\n    at /home/tony/backend/src/routes/auth.routes.js:95:5\n    at Layer.handleRequest (/home/tony/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/home/tony/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/home/tony/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/home/tony/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/home/tony/backend/node_modules/router/lib/layer.js:152:17)\n    at /home/tony/backend/node_modules/router/index.js:295:15\n    at processParams (/home/tony/backend/node_modules/router/index.js:582:12)\n    at next (/home/tony/backend/node_modules/router/index.js:291:5)\n    at router.handle (/home/tony/backend/node_modules/router/index.js:186:3)","statusCode":{"code":"GEN_002","errors":["Email is required","Password too short"],"message":"Bad request","statusCode":400},"timestamp":"2026-04-21 09:12:59","url":"/api/auth/test-error"}
+{"level":"info","message":"6496c8c6-52d2-4d80-bcf8-cd7aeac309f9 GET /api/auth/test-error 500 - - 17.723 ms","service":"api-service","timestamp":"2026-04-21 09:12:59"}
+{"level":"error","message":"6496c8c6-52d2-4d80-bcf8-cd7aeac309f9 GET /api/auth/test-error 500 - - 17.723 ms","service":"api-service","timestamp":"2026-04-21 09:12:59"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 09:14:58"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 09:14:58"}

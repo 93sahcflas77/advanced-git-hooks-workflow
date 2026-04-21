@@ -3,6 +3,7 @@ const logger = require('../utils/logger/logger');
 const { validate } = require('../middleware/validation.js');
 const { userSchema } = require('../validators/inex.js');
 const upload = require('../middleware/multer.js');
+const ERROR_CODES = require('../constants/errorcodes.js');
 const ApiError = require('../utils/ApiError.js');
 const asyncHandler = require('../utils/asyncHandler.js');
 const { client } = require('../config/minio.js');
@@ -92,9 +93,9 @@ router.post('/upload-file', upload.single('file'), async (req, res) => {
 router.get('/test-error', (req, res, next) => {
   return next(
     new ApiError({
-      statusCode: 400,
-      message: 'Validation failed',
-      code: 'VAL_001',
+      statusCode: ERROR_CODES.BAD_REQUEST.statusCode,
+      message: ERROR_CODES.BAD_REQUEST.message,
+      code: ERROR_CODES.BAD_REQUEST.code,
       errors: ['Email is required', 'Password too short'],
     }),
   );
