@@ -29,7 +29,7 @@ const connectDB = async () => {
     logger.error('Error:', error.message);
     logger.error('Retrying in 5 seconds...\n');
 
-    setTimeout(connectDB, 5000);
+    // setTimeout(connectDB, 5000);
   }
 };
 

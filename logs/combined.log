@@ -360,3 +360,113 @@
 {"level":"error","message":"6496c8c6-52d2-4d80-bcf8-cd7aeac309f9 GET /api/auth/test-error 500 - - 17.723 ms","service":"api-service","timestamp":"2026-04-21 09:12:59"}
 {"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-21 09:14:58"}
 {"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-21 09:14:58"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:33:52"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:33:52"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-23 11:33:57"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-23 11:33:57"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-23 11:33:57"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-23 11:33:57"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-23 11:33:57"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:34:08"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:34:08"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-23 11:34:13"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-23 11:34:13"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-23 11:34:13"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-23 11:34:13"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-23 11:34:13"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:34:39"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:34:39"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-23 11:34:44"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-23 11:34:44"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-23 11:34:44"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-23 11:34:44"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-23 11:34:44"}
+{"level":"info","message":"53c05706-8c44-4e58-9aca-a6883fa68f0c GET /api-docs/ 304 - - 4.916 ms","service":"api-service","timestamp":"2026-04-23 11:34:45"}
+{"level":"info","message":"57b0fd90-6bb9-4d09-bab2-25e99c36fbde GET /api-docs/swagger-ui.css 200 - - 4.000 ms","service":"api-service","timestamp":"2026-04-23 11:34:45"}
+{"level":"info","message":"11c4e3a4-9521-4f26-a574-c8045c134f80 GET /api-docs/swagger-ui-init.js 304 - - 0.763 ms","service":"api-service","timestamp":"2026-04-23 11:34:45"}
+{"level":"info","message":"1008baf9-1fa6-4c13-ba57-d9fd533f192c GET /api-docs/swagger-ui-standalone-preset.js 200 - - 2.215 ms","service":"api-service","timestamp":"2026-04-23 11:34:45"}
+{"level":"info","message":"ccbc98d5-2ab1-4121-86af-3e1b91b8ddd1 GET /api-docs/swagger-ui-bundle.js 200 - - 6.331 ms","service":"api-service","timestamp":"2026-04-23 11:34:45"}
+{"level":"info","message":"7511647b-9b9a-4748-9154-fd1daf0eac18 GET /api-docs/favicon-32x32.png 200 628 - 1.045 ms","service":"api-service","timestamp":"2026-04-23 11:34:45"}
+{"level":"info","message":"7f1179ca-30e0-4a4a-9e0b-df13ba67a2f2 GET /api-docs/ 304 - - 0.957 ms","service":"api-service","timestamp":"2026-04-23 11:34:47"}
+{"level":"info","message":"2bee9bb8-2a6a-49b9-90f8-6f5c02609b6c GET /api-docs/swagger-ui-init.js 304 - - 0.344 ms","service":"api-service","timestamp":"2026-04-23 11:34:47"}
+{"level":"info","message":"f39ab37d-cbb8-4e54-ad1e-9db92e54e6c6 GET /api-docs/swagger-ui.css 304 - - 6.140 ms","service":"api-service","timestamp":"2026-04-23 11:34:47"}
+{"level":"info","message":"bc1c9fe4-bf9f-4040-9655-4fb2bddf281e GET /api-docs/swagger-ui-bundle.js 304 - - 11.463 ms","service":"api-service","timestamp":"2026-04-23 11:34:47"}
+{"level":"info","message":"f62eea88-c571-44ff-aeb5-03b085eab0ff GET /api-docs/swagger-ui-standalone-preset.js 304 - - 13.205 ms","service":"api-service","timestamp":"2026-04-23 11:34:47"}
+{"level":"info","message":"0f9b72ae-57dc-4c0d-b6eb-6cc91ec65c0b GET /api-docs/ 304 - - 0.939 ms","service":"api-service","timestamp":"2026-04-23 11:34:54"}
+{"level":"info","message":"21fd7671-2c3d-43d4-a6c3-912437c661d8 GET /api-docs/swagger-ui.css 304 - - 0.535 ms","service":"api-service","timestamp":"2026-04-23 11:34:55"}
+{"level":"info","message":"ff912d93-cde7-4898-a179-a64668c25dfb GET /api-docs/swagger-ui-bundle.js 304 - - 0.617 ms","service":"api-service","timestamp":"2026-04-23 11:34:55"}
+{"level":"info","message":"c01a0b4e-74f1-4a14-9238-7a927ca27196 GET /api-docs/swagger-ui-standalone-preset.js 304 - - 0.592 ms","service":"api-service","timestamp":"2026-04-23 11:34:55"}
+{"level":"info","message":"1176ca9f-43ef-418d-a78e-06ef972ee967 GET /api-docs/swagger-ui-init.js 304 - - 0.519 ms","service":"api-service","timestamp":"2026-04-23 11:34:55"}
+{"level":"info","message":"5f4ffff2-e760-4eb1-adda-58c9d4480c65 GET /api-docs/ 304 - - 1.008 ms","service":"api-service","timestamp":"2026-04-23 11:35:03"}
+{"level":"info","message":"c9b31036-05b6-4874-9b7d-805c0ffd2b1e GET /api-docs/swagger-ui-bundle.js 304 - - 1.269 ms","service":"api-service","timestamp":"2026-04-23 11:35:03"}
+{"level":"info","message":"65f2dd96-b950-448a-81b9-9f388f58ed41 GET /api-docs/swagger-ui.css 304 - - 2.049 ms","service":"api-service","timestamp":"2026-04-23 11:35:03"}
+{"level":"info","message":"f65876f8-7c0b-414b-9afa-943ba42e5af9 GET /api-docs/swagger-ui-standalone-preset.js 304 - - 1.107 ms","service":"api-service","timestamp":"2026-04-23 11:35:03"}
+{"level":"info","message":"66f71a64-d392-4767-9845-32e5f4e61082 GET /api-docs/swagger-ui-init.js 304 - - 0.463 ms","service":"api-service","timestamp":"2026-04-23 11:35:03"}
+{"level":"info","message":"c9c63f9e-f56b-465c-82b6-c596dab97ca4 GET /api-docs/favicon-32x32.png 304 - - 0.355 ms","service":"api-service","timestamp":"2026-04-23 11:35:03"}
+{"level":"info","message":"aeb0f549-8b12-43a8-8dcd-0c189e14fa43 GET /api-docs/ 304 - - 0.835 ms","service":"api-service","timestamp":"2026-04-23 11:35:17"}
+{"level":"info","message":"2048f443-368a-4222-889a-9006c707f16b GET /api-docs/swagger-ui.css 304 - - 0.591 ms","service":"api-service","timestamp":"2026-04-23 11:35:17"}
+{"level":"info","message":"b746546c-05be-4e28-9cc1-a04e248cfb51 GET /api-docs/swagger-ui-bundle.js 304 - - 0.519 ms","service":"api-service","timestamp":"2026-04-23 11:35:17"}
+{"level":"info","message":"6ec9324d-38e7-42ef-bf65-34902b08b493 GET /api-docs/swagger-ui-init.js 304 - - 0.486 ms","service":"api-service","timestamp":"2026-04-23 11:35:17"}
+{"level":"info","message":"27fa0981-f761-404b-9062-61ce69cd4f90 GET /api-docs/swagger-ui-standalone-preset.js 304 - - 0.831 ms","service":"api-service","timestamp":"2026-04-23 11:35:17"}
+{"level":"info","message":"cc044743-c995-4dd0-b42d-435e4f408e63 GET /api-docs/favicon-32x32.png 304 - - 0.627 ms","service":"api-service","timestamp":"2026-04-23 11:35:17"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:36:42"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:36:42"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-23 11:36:47"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-23 11:36:47"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-23 11:36:47"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-23 11:36:47"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-23 11:36:47"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:36:54"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:36:54"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:37:00"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:37:00"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-23 11:37:05"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-23 11:37:05"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-23 11:37:05"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-23 11:37:05"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-23 11:37:05"}
+{"level":"info","message":"a0edc291-f019-48b2-aa7d-316a09603ff0 GET /api-docs/ 304 - - 9.999 ms","service":"api-service","timestamp":"2026-04-23 11:37:08"}
+{"level":"info","message":"f9b414c7-c6b5-4aa9-896a-8bde1d32ec28 GET /api-docs/swagger-ui.css 304 - - 1.553 ms","service":"api-service","timestamp":"2026-04-23 11:37:08"}
+{"level":"info","message":"e2d97ec3-4713-4415-8658-f359d9c8d195 GET /api-docs/swagger-ui-standalone-preset.js 304 - - 2.245 ms","service":"api-service","timestamp":"2026-04-23 11:37:08"}
+{"level":"info","message":"eaf54837-828d-4418-9239-eaa15cfb5714 GET /api-docs/swagger-ui-bundle.js 304 - - 2.615 ms","service":"api-service","timestamp":"2026-04-23 11:37:08"}
+{"level":"info","message":"ffa39571-c048-46a1-a3c9-2421a119f727 GET /api-docs/swagger-ui-init.js 200 - - 0.370 ms","service":"api-service","timestamp":"2026-04-23 11:37:09"}
+{"level":"info","message":"45cfca57-8c1e-413c-b08c-471d8c8b7a0b GET /api-docs/favicon-32x32.png 304 - - 0.692 ms","service":"api-service","timestamp":"2026-04-23 11:37:09"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:37:28"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:37:28"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:37:30"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:37:30"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-23 11:37:35"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-23 11:37:35"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-23 11:37:35"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-23 11:37:35"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-23 11:37:35"}
+{"level":"info","message":"3d4a19de-cb9d-45e6-b3e3-37e85e94021b GET /api-docs/ 304 - - 9.987 ms","service":"api-service","timestamp":"2026-04-23 11:37:37"}
+{"level":"info","message":"7a5e0899-5370-4222-97bc-5ff3f48a6398 GET /api-docs/swagger-ui.css 304 - - 1.796 ms","service":"api-service","timestamp":"2026-04-23 11:37:37"}
+{"level":"info","message":"cefd93f2-40e0-4a9a-9ec3-ee777daa88ec GET /api-docs/swagger-ui-bundle.js 304 - - 0.822 ms","service":"api-service","timestamp":"2026-04-23 11:37:37"}
+{"level":"info","message":"2e42ab36-85d1-4bbb-819e-4c482a662d94 GET /api-docs/swagger-ui-standalone-preset.js 304 - - 0.718 ms","service":"api-service","timestamp":"2026-04-23 11:37:37"}
+{"level":"info","message":"9469e5b1-5656-4e93-92ba-602242b79c16 GET /api-docs/swagger-ui-init.js 200 - - 0.478 ms","service":"api-service","timestamp":"2026-04-23 11:37:37"}
+{"level":"info","message":"0b2caafb-3236-4deb-91a5-0e740cecb64d GET /api-docs/favicon-32x32.png 304 - - 0.573 ms","service":"api-service","timestamp":"2026-04-23 11:37:37"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:38:48"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:38:48"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:38:50"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:38:50"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:38:54"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:38:54"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:39:00"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:39:00"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:39:04"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:39:04"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:39:07"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:39:07"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-23 11:39:12"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-23 11:39:12"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-23 11:39:12"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-23 11:39:12"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-23 11:39:12"}
+{"level":"info","message":"\n🟡 Connecting to MongoDB...","service":"api-service","timestamp":"2026-04-23 11:39:14"}
+{"level":"info","message":"🔗 URI: mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2","service":"api-service","timestamp":"2026-04-23 11:39:14"}
+{"level":"error","message":"❌ MongoDB Connection Error:","service":"api-service","timestamp":"2026-04-23 11:39:19"}
+{"level":"error","message":"Error:","service":"api-service","timestamp":"2026-04-23 11:39:19"}
+{"level":"error","message":"Retrying in 5 seconds...\n","service":"api-service","timestamp":"2026-04-23 11:39:19"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-04-23 11:39:19"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-04-23 11:39:19"}

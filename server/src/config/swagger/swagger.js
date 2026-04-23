@@ -1,4 +1,4 @@
-const config = require('../src/config/env');
+const config = require('../env');
 const swaggerJsdoc = require('swagger-jsdoc');
 const userSchema = require('./schems/user.schema');
 const path = require('path');
@@ -52,7 +52,7 @@ const swaggerSpec = swaggerJsdoc({
       },
     ],
   },
-  apis: [path.join(process.cwd(), './src/routes/*.js')],
+  apis: [path.join(process.cwd(), './server/src/routes/*.js')],
 });
 
 module.exports = swaggerSpec;
