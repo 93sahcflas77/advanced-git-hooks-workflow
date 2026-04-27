@@ -1,54 +1,18 @@
 const express = require('express');
-const logger = require('../utils/logger/logger');
-const { validate } = require('../middleware/validation.js');
-const { userSchema } = require('../validators/inex.js');
-const upload = require('../middleware/multer.js');
-const ERROR_CODES = require('../constants/errorcodes.js');
-const ApiError = require('../utils/ApiError.js');
-const asyncHandler = require('../utils/asyncHandler.js');
-const { client } = require('../config/minio.js');
+const authController = require('../controller/auth.controller.js');
 const router = express.Router();
 
 /**
  * @openapi
- * /api/user/{id}:
+ * /api/auth/register:
  *   get:
- *     summary: Get user by ID
- *     description: Retrieve a single user using their unique ID
+ *     summary: create a user
+ *     description: store a user data
  *     tags: [Users]
- *     operationId: getUserById
- *
- *     x-module: user
- *     x-permission: user.read
- *     x-audit-log: true
+ *     operationId: postUser
  *
  *     security: []
  *
- *     parameters:
- *       - name: id
- *         in: path
- *         required: true
- *         description: Unique ID
- *         schema:
- *           type: string
- *           format: uuid
- *         example: "550e8400-e29b-41d4-a716-446655440000"
- *
- *     responses:
- *       "200":
- *         description: User fetched successfully
- *         headers:
- *           X-Request-ID:
- *             description: Request tracking ID
- *             schema:
- *               type: string
- *             example: "req-123"
- *         content:
- *           application/json:
- *             schema:
- *               type: array
- *               items:
- *                 $ref: '#/components/schemas/User'
  *
  *     requestBody:
  *       description: Not required for GET
@@ -57,49 +21,58 @@ const router = express.Router();
  *         application/json:
  *           schema:
  *             type: object
+ *             properties:
+ *               email:
+ *                 type: string
+ *                 example: chandan thakur
+ *               password:
+ *                 type: string
+ *                 required: true
+ *                 example: 45fkghgghggjgg
+ *               role:
+ *                 type: string
+ *                 example: user
  */
 
-router.get('/', (req, res) => {
-  res.json({ message: 'Hello, World!' });
-});
+router.post('/register', authController.register);
 
-router.post('/', validate(userSchema), (req, res) => {
-  const data = req.validated;
-  logger.info('Received data:', data);
+// router.post('/', validate(userSchema), (req, res) => {
+//   const data = req.validated;
+//   logger.info('Received data:', data);
 
-  res.json({ message: 'Hello, World!', data });
-});
+//   res.json({ message: 'Hello, World!', data });
+// });
 
-router.post('/upload-file', upload.single('file'), async (req, res) => {
-  const objectName = `${Date.now()}-${req.file.originalname}`;
-  const bucketName = 'chandan';
+// router.post('/upload-file', upload.single('file'), async (req, res) => {
+//   const objectName = `${Date.now()}-${req.file.originalname}`;
+//   const bucketName = 'chandan';
 
-  const upload_data = await client.putObject(
-    bucketName,
-    objectName,
-    req.file.buffer,
-    req.file.size,
-    {
-      'Content-Type': req.file.mimetype,
-    },
-  );
-  logger.info('Files uploaded:', upload_data);
-  res.json({
-    message: '✅ File uploaded successfully',
-    file: objectName,
-  });
-});
+//   const upload_data = await client.putObject(
+//     bucketName,
+//     objectName,
+//     req.file.buffer,
+//     req.file.size,
+//     {
+//       'Content-Type': req.file.mimetype,
+//     },
+//   );
+//   logger.info('Files uploaded:', upload_data);
+//   res.json({
+//     message: '✅ File uploaded successfully',
+//     file: objectName,
+//   });
+// });
 
-router.get('/test-error', (req, res, next) => {
-  return next(
-    new ApiError({
-      statusCode: ERROR_CODES.BAD_REQUEST.statusCode,
-      message: ERROR_CODES.BAD_REQUEST.message,
-      code: ERROR_CODES.BAD_REQUEST.code,
-      errors: ['Email is required', 'Password too short'],
-    }),
-  );
-});
+// router.get('/test-error', (req, res, next) => {
+//   return next(
+//     new ApiError({
+//       statusCode: ERROR_CODES.BAD_REQUEST.statusCode,
+//       message: ERROR_CODES.BAD_REQUEST.message,
+//       code: ERROR_CODES.BAD_REQUEST.code,
+//       errors: ['Email is required', 'Password too short'],
+//     }),
+//   );
+// });
 
 /**
  * @openapi

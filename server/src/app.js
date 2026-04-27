@@ -17,6 +17,7 @@ const loadRoutes = require('./utils/loadRoutes');
 const apiRouter = express.Router();
 const routesPath = path.join(__dirname, 'routes');
 const logger = require('./utils/logger/logger');
+const { Logger } = require('winston');
 const app = express();
 
 app.disable('x-powered-by');
@@ -87,7 +88,8 @@ app.use(
 );
 
 if (!config.cookieSecret) {
-  throw new Error('COOKIE_SECRET is required');
+  logger.error('COOKIE_SECRET is required');
+  process.exit(1);
 }
 app.use(cookieParser(config.cookieSecret));
 

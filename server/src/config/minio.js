@@ -2,16 +2,16 @@ const Minio = require('minio');
 const config = require('./env');
 const logger = require('../utils/logger/logger');
 
-if (!config.endpoint || !config.accessKey || !config.secretKey) {
+if (!config.MINIO.endpoint || !config.MINIO.accessKey || !config.MINIO.secretKey) {
   logger.error('MinIO config missing!');
   process.exit(1);
 }
-const client = new Minio.Client({
-  endPoint: config.endpoint,
-  port: config.minio_port,
-  useSSL: config.useSsl,
-  accessKey: config.accessKey,
-  secretKey: config.secretKey,
+client = new Minio.Client({
+  endPoint: config.MINIO.endpoint,
+  port: config.MINIO.minio_port,
+  useSSL: config.MINIO.useSsl,
+  accessKey: config.MINIO.accessKey,
+  secretKey: config.MINIO.secretKey,
 });
 
 const checkconnection = async () => {

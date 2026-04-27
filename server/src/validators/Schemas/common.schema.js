@@ -1,10 +1,10 @@
 const { checkSchema } = require('express-validator');
 
 exports.userSchema = checkSchema({
-  name: {
+  email: {
     in: ['body'],
     exists: {
-      errorMessage: 'Name is required',
+      errorMessage: 'email is required',
     },
     isString: {
       errorMessage: 'Name must be a string',

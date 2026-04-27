@@ -2,7 +2,7 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 
-const upload = multer({
+module.exports = upload = multer({
   // storage: multer.diskStorage({
   //   destination (req, file, cb) {
   //     const logDir = path.join(process.cwd(), 'uploads');
@@ -28,5 +28,3 @@ const upload = multer({
     return cb(new Error('Only JPEG, PNG, GIF, and OGG files are allowed'), false);
   },
 });
-
-module.exports = upload;

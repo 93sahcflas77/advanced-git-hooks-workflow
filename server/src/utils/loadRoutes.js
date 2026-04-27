@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-function loadRoutes(router, routesPath) {
+module.exports = loadRoutes = (router, routesPath) => {
   fs.readdirSync(routesPath).forEach((file) => {
     if (file === 'index.js') {
       return;
@@ -16,6 +16,4 @@ function loadRoutes(router, routesPath) {
 
     router.use(`/${routeName}`, require(fullPath));
   });
-}
-
-module.exports = loadRoutes;
+};

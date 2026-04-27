@@ -1,7 +1,9 @@
 const { matchedData, validationResult } = require('express-validator');
 const logger = require('../utils/logger/logger');
+const ApiError = require('../utils/ApiError');
+const ERROR_CODES = require('../constants/errorcodes');
 
-exports.validate = (schemas = [], options = {}) => {
+module.exports = validate = (schemas = [], options = {}) => {
   return [
     ...(Array.isArray(schemas) ? schemas : [schemas]),
 
@@ -20,18 +22,21 @@ exports.validate = (schemas = [], options = {}) => {
             .array({ onlyFirstError: true });
 
           if (!options.logErrors) {
-            logger.error('Validation Error', {
+            logger.warn('Validation Error', {
               errors: formattedErrors,
               path: req.originalUrl,
               method: req.method,
             });
           }
 
-          return res.status(options.statusCode || 400).json({
-            success: false,
-            message: options.message || 'Validation failed',
-            errors: formattedErrors,
-          });
+          return next(
+            new ApiError({
+              statusCode: options.statusCode || ERROR_CODES.VALIDATION_ERROR.statusCode,
+              message: options.message || ERROR_CODES.VALIDATION_ERROR.message,
+              code: ERROR_CODES.VALIDATION_ERROR.code,
+              errors: formattedErrors,
+            }),
+          );
         }
 
         // 🔥 Safe extraction
@@ -44,12 +49,19 @@ exports.validate = (schemas = [], options = {}) => {
 
         return next();
       } catch (error) {
-        logger.error('Validation Middleware Error', error);
-
-        return res.status(500).json({
-          success: false,
-          message: 'Validation processing failed',
+        logger.error({
+          message: 'Validation Middleware Error',
+          error: error.message,
+          stack: error.stack,
         });
+
+        return next(
+          new ApiError({
+            statusCode: ERROR_CODES.INTERNAL_VALIDATION_ERROR.statusCode,
+            message: ERROR_CODES.INTERNAL_VALIDATION_ERROR.message,
+            code: ERROR_CODES.INTERNAL_VALIDATION_ERROR.code,
+          }),
+        );
       }
     },
   ];

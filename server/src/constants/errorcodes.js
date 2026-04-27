@@ -1,6 +1,6 @@
-const ERROR_CODES = {
+module.exports = {
   AUTH_REQUIRED: {
-    code: 'AUTH_001',
+    code: 'AUTH_00',
     message: 'Authentication required',
     statusCode: 401,
   },
@@ -18,6 +18,30 @@ const ERROR_CODES = {
     code: 'AUTH_003',
     message: 'Token expired',
     statusCode: 401,
+  },
+  NO_AUTH_HEADER: {
+    code: 'AUTH_004',
+    message: 'Authorization header is required',
+    statusCode: 401,
+  },
+  INVALID_AUTH_FORMAT: {
+    code: 'AUTH_005',
+    message: 'Invalid Authorization header format. Use: Bearer <token>',
+    statusCode: 400,
+  },
+  INTERNAL_AUTH_ERROR: {
+    code: 'AUTH_006',
+    message: 'Internal authentication error',
+    statusCode: 500,
+  },
+  NO_COOKIES_FOUND: {
+    code: 'AUTH_007',
+    message: 'No cookies found',
+    statusCode: 400,
+  },
+  FORBIDDEN: {
+    code: 'AUTH_403',
+    statusCode: 403,
   },
   DB_ERRORS: {
     INVALID_ID: {
@@ -59,5 +83,3 @@ const ERROR_CODES = {
     statusCode: 400,
   },
 };
-
-module.exports = ERROR_CODES;

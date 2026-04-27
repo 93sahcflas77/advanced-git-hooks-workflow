@@ -26,10 +26,10 @@ module.exports = defineConfig([
       'no-extra-boolean-cast': 2, // "no-extra-boolean-cast": "error"
       'no-dupe-args': 2, // Disallows duplicate parameter names in functions.
       'no-extra-semi': 2, // Disallows unnecessary semicolons.
-      'no-template-curly-in-string': 2, // Disallows ${} inside normal strings (not template literals).
+      'no-template-curly-in-string': 0, // Disallows ${} inside normal strings (not template literals).
       'no-use-before-define': [2, { functions: false, classes: true, variables: true }], // Don’t use a variable or function before it is defined.
       'no-shadow': [2, { builtinGlobals: false }], // Don’t create a new variable with the same name as an outer variable (shadowing).
-      'callback-return': 2, // If you call a callback, you must return immediately.
+      'callback-return': 0, // If you call a callback, you must return immediately.
       'global-require': 0, // All require() calls must be at the top of the file, not inside functions or blocks.
       'no-mixed-requires': 2, //Don’t mix require() with other code in the same statement block.
       'handle-callback-err': [2, '^(err|error)$'], // You must handle the err argument in callbacks instead of ignoring it.

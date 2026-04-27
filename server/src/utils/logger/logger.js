@@ -37,7 +37,7 @@ const consoleFormat = winston.format.combine(
   }),
 );
 
-const logger = winston.createLogger({
+module.exports = winston.createLogger({
   levels: customLevels,
   level: config.nodeEnv === 'production' ? 'info' : 'debug',
 
@@ -81,5 +81,3 @@ const logger = winston.createLogger({
   rejectionHandlers: [new winston.transports.File({ filename: `${logDir}/rejections.log` })],
   exitOnError: false,
 });
-
-module.exports = logger;

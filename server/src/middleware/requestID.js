@@ -1,6 +1,6 @@
 const { randomUUID } = require('crypto');
 
-module.exports = function requestIDMiddleware(req, res, next) {
+module.exports = requestIDMiddleware = (req, res, next) => {
   // get exiting request ID from headers if present
   const incomingRequestID = req.headers['x-request-id'] || req.headers['x-correlation-id'];
 
