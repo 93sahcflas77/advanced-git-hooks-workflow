@@ -1,6 +1,4 @@
-const { referrerPolicy } = require('helmet');
-const { default: mongoose } = require('mongoose');
-const mongppse = require('mongoose');
+const mongoose = require('mongoose');
 
 const refreshTokenSchema = new mongoose.Schema(
   {

@@ -1,14 +1,19 @@
 const express = require('express');
-const authController = require('../controller/auth.controller.js');
+const authController = require('../controller/auth.controller');
 const router = express.Router();
+const asyncHandler = require('../utils/asyncHandler');
+const vaildate = require('../middleware/validation');
+const { validateUserRegistration, validateUserlogin } = require('../validators/inex');
+const requireAuth = require('../middleware/authjwtMiddleware');
+const autoRefresh = require('../middleware/autoRefreshMiddleware');
 
 /**
  * @openapi
  * /api/auth/register:
- *   get:
+ *   post:
  *     summary: create a user
  *     description: store a user data
- *     tags: [Users]
+ *     tags: [Auth]
  *     operationId: postUser
  *
  *     security: []
@@ -34,60 +39,17 @@ const router = express.Router();
  *                 example: user
  */
 
-router.post('/register', authController.register);
-
-// router.post('/', validate(userSchema), (req, res) => {
-//   const data = req.validated;
-//   logger.info('Received data:', data);
-
-//   res.json({ message: 'Hello, World!', data });
-// });
-
-// router.post('/upload-file', upload.single('file'), async (req, res) => {
-//   const objectName = `${Date.now()}-${req.file.originalname}`;
-//   const bucketName = 'chandan';
-
-//   const upload_data = await client.putObject(
-//     bucketName,
-//     objectName,
-//     req.file.buffer,
-//     req.file.size,
-//     {
-//       'Content-Type': req.file.mimetype,
-//     },
-//   );
-//   logger.info('Files uploaded:', upload_data);
-//   res.json({
-//     message: '✅ File uploaded successfully',
-//     file: objectName,
-//   });
-// });
-
-// router.get('/test-error', (req, res, next) => {
-//   return next(
-//     new ApiError({
-//       statusCode: ERROR_CODES.BAD_REQUEST.statusCode,
-//       message: ERROR_CODES.BAD_REQUEST.message,
-//       code: ERROR_CODES.BAD_REQUEST.code,
-//       errors: ['Email is required', 'Password too short'],
-//     }),
-//   );
-// });
+router.post('/register', vaildate(validateUserRegistration), asyncHandler(authController.register));
 
 /**
  * @openapi
- * /path:
- *   method:
- *     summary:
- *     description:
- *     tags:
- *     operationId:
- *
- *     x-module:
- *     x-permission:
- *     x-audit-log:
- *
- *     security:
+ * /api/auth/login
+ *   post:
+ *     summary: user login
+ *     description: clinet login a applcation
+ *     tags: [Auth]
+ *     operationId: loginUser
+ *     security: []
  *
  *     parameters:
  *       - name:
@@ -102,14 +64,16 @@ router.post('/register', authController.register);
  *         description:
  *
  *     requestBody:
- *       description:
- *       required:
+ *       description: Not required GET
+ *       required: false
  *       content:
- *         mediaType:
+ *         application/json:
  *           schema:
- *           example:
  */
-// Route.post("/", middleware, controller);
+router.post('/login', vaildate(validateUserlogin), asyncHandler(authController.login));
+router.get('/dashbord', requireAuth, asyncHandler(authController.dashbord));
+router.post('/refresh', autoRefresh, asyncHandler(authController.refreshToken));
+router.post('/logout', asyncHandler(authController.logout));
 
 /**
  * @openapi

@@ -3,7 +3,7 @@ const logger = require('../utils/logger/logger');
 const ApiError = require('../utils/ApiError');
 const ERROR_CODES = require('../constants/errorcodes');
 
-module.exports = requireAuth = (req, res, next) => {
+module.exports = (req, res, next) => {
   try {
     const authHeader = req.headers['authorization'];
 

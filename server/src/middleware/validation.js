@@ -3,13 +3,14 @@ const logger = require('../utils/logger/logger');
 const ApiError = require('../utils/ApiError');
 const ERROR_CODES = require('../constants/errorcodes');
 
-module.exports = validate = (schemas = [], options = {}) => {
+module.exports = (schemas = [], options = {}) => {
   return [
     ...(Array.isArray(schemas) ? schemas : [schemas]),
 
     async (req, res, next) => {
       try {
         const result = validationResult(req);
+        console.log('Validation Result:', result); // Debug log
 
         if (!result.isEmpty()) {
           const formattedErrors = result
@@ -31,9 +32,10 @@ module.exports = validate = (schemas = [], options = {}) => {
 
           return next(
             new ApiError({
-              statusCode: options.statusCode || ERROR_CODES.VALIDATION_ERROR.statusCode,
-              message: options.message || ERROR_CODES.VALIDATION_ERROR.message,
-              code: ERROR_CODES.VALIDATION_ERROR.code,
+              statusCode: options.statusCode || ERROR_CODES.DB_ERRORS.VALIDATION_ERROR.statusCode,
+              message: options.message || ERROR_CODES.DB_ERRORS.VALIDATION_ERROR.message,
+              code: ERROR_CODES.DB_ERRORS.VALIDATION_ERROR.code,
+              data: null,
               errors: formattedErrors,
             }),
           );
@@ -57,9 +59,9 @@ module.exports = validate = (schemas = [], options = {}) => {
 
         return next(
           new ApiError({
-            statusCode: ERROR_CODES.INTERNAL_VALIDATION_ERROR.statusCode,
-            message: ERROR_CODES.INTERNAL_VALIDATION_ERROR.message,
-            code: ERROR_CODES.INTERNAL_VALIDATION_ERROR.code,
+            statusCode: ERROR_CODES.DB_ERRORS.VALIDATION_ERROR.statusCode,
+            message: ERROR_CODES.DB_ERRORS.VALIDATION_ERROR.message,
+            code: ERROR_CODES.DB_ERRORS.VALIDATION_ERROR.code,
           }),
         );
       }

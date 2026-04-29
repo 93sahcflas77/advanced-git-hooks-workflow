@@ -29,6 +29,11 @@ module.exports = {
     message: 'Invalid Authorization header format. Use: Bearer <token>',
     statusCode: 400,
   },
+  NO_REFRESHT_OKEN: {
+    code: 'AUTH_008',
+    message: 'No refresh token found',
+    statusCode: 4040,
+  },
   INTERNAL_AUTH_ERROR: {
     code: 'AUTH_006',
     message: 'Internal authentication error',

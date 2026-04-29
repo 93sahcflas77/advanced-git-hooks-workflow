@@ -24,7 +24,7 @@ if (!refreshSecret) {
 // ------------------------------
 
 const generateRefreshToken = (payload) => {
-  if (!REFRESH_SECRET) {
+  if (!refreshSecret) {
     return null;
   }
   return jwt.sign(payload, refreshSecret, { expiresIn: refreshExp });
@@ -44,7 +44,7 @@ const generateToken = (payload) => {
 // ------------------------------
 
 const verifyRefreshToken = (token) => {
-  if (!REFRESH_SECRET) {
+  if (!refreshSecret) {
     return null;
   }
   try {
