@@ -4,7 +4,8 @@ const ERROR_CODES = require('../constants/errorcodes.js');
 const { refreshTokenCookieOptions } = require('../utils/cookieOptions');
 const ApiResponse = require('../utils/ApiResponse.js');
 const logger = require('../utils/logger/logger');
-const { request } = require('express');
+const sendEmail = require('../utils/sendEmail');
+const welcometemplates = require('../templates/welcome.templates');
 
 module.exports = {
   register: async (req, res) => {
@@ -22,6 +23,17 @@ module.exports = {
       userId: createUser._id,
       userRole: createUser.role,
       email: createUser.email,
+    });
+
+    const html = welcometemplates({
+      username: createUser.email,
+      ctaLink: 'https://www.google.com',
+    });
+
+    await sendEmail({
+      to: createUser.email,
+      subject: 'Welcome to My app ',
+      html,
     });
 
     return new ApiResponse({

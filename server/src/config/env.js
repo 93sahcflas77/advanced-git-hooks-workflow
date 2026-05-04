@@ -24,4 +24,10 @@ module.exports = {
     refreshSecret: process.env.JWT_REFRESH_SECRET || null,
     refreshExp: process.env.REFRESH_TOKEN_EXPIRES_IN || '7d',
   },
+  SMTP_SERVER: {
+    smtpHost: process.env.SMTP_HOST,
+    smtpPort: process.env.SMTP_PORT,
+    smtpUser: process.env.SMTP_USER,
+    smtpPass: process.env.SMTP_PASS,
+  },
 };
