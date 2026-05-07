@@ -4,12 +4,14 @@ const app = require('./src/app');
 const { connectDB } = require('./src/config/db');
 const { checkconnection } = require('./src/config/minio');
 const { checkSMTP } = require('./src/config/nodemailer');
+const client = require('./src/config/redis');
 
 const startServer = async () => {
   try {
     await connectDB();
     await checkconnection();
     await checkSMTP();
+    await client.connect();
 
     app.listen(config.port, () => {
       logger.info(`Server running in ${config.nodeEnv} mode on port ${config.port}`);
@@ -21,3 +23,15 @@ const startServer = async () => {
 };
 
 startServer();
+
+// CONNECT FUNCTION
+// async function connectRedis() {
+//     try {
+//         await client.connect();
+//         console.log("Redis Connected Successfully");
+//     } catch (err) {
+//         console.log(err);
+//     }
+// }
+
+// connectRedis();

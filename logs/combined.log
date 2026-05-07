@@ -11554,3 +11554,450 @@
 {"level":"info","message":{"email":"siddhantkum6877@gmail.com","event":"register_user","ip":"::1","method":"POST","requestId":"78b0748e-b7e3-420b-8131-684112841103","route":"/register","service":"auth_service","statusCode":201,"url":"/api/auth/register","userId":"69f887d9bfd7219dbe6cfdf5","userRole":"user"},"service":"api-service","timestamp":"2026-05-04 11:49:45"}
 {"level":"info","message":"Email sent: <c4f89d42-5c52-8ae6-4dc3-2f7d44050627@gmail.com>","service":"api-service","timestamp":"2026-05-04 11:49:49"}
 {"level":"info","message":"78b0748e-b7e3-420b-8131-684112841103 POST /api/auth/register 200 79 - 4657.585 ms","service":"api-service","timestamp":"2026-05-04 11:49:49"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 07:58:23"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 07:58:23"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 07:58:24"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 07:58:24"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 07:58:24"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 07:58:24"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 07:58:26"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 07:58:26"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 07:58:26"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 07:58:26"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 07:58:26"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 07:58:26"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 07:58:29"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:07:21"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:07:21"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:07:21"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:07:21"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:07:21"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:07:21"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:07:24"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:08:25"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:08:25"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:08:25"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:08:25"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:08:25"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:08:25"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:08:27"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:08:27"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:08:27"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:08:27"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:08:27"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:08:28"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:08:30"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:08:35"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:08:35"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:08:35"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:08:35"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:08:35"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:08:35"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:08:38"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:10:07"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:10:07"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:10:07"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:10:07"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:10:07"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:10:07"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:10:10"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:10:46"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:10:46"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:10:46"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:10:46"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:10:46"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:10:46"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:10:47"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:10:47"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:10:47"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:10:47"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:10:47"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:10:48"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:10:50"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:12:08"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:12:08"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:12:08"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:12:08"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:12:08"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:12:08"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:12:11"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:12:20"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:12:20"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:12:20"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:12:20"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:12:20"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:12:20"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:12:23"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:12:23"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:12:23"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:12:23"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:12:23"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:12:23"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:12:26"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:12:26"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:16:57"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:16:57"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:16:57"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:16:57"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:16:57"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:16:57"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:00"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:00"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:00"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:00"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:00"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:00"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:03"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:03"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:03"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:03"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:03"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:03"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:04"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:04"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:04"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:04"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:04"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:04"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:06"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:06"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:06"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:06"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:06"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:07"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:09"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:09"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:09"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:09"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:09"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:09"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:12"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:17:12"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:18"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:18"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:18"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:18"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:18"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:18"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:21"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:21"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:21"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:21"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:21"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:21"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:42"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:42"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:42"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:42"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:42"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:42"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:44"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:44"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:44"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:44"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:44"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:44"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:47"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:17:47"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:52"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:52"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:52"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:52"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:52"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:52"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:55"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:55"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:55"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:55"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:55"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:55"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:17:58"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:17:58"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:17:58"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:17:58"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:17:58"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:17:58"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:18:01"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:18:01"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:18:56"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:18:56"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:18:56"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:18:56"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:18:56"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:18:56"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:18:58"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:18:58"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:18:58"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:18:58"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:18:58"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:18:58"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:01"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:19:01"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:19:12"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:19:12"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:19:12"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:19:12"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:19:12"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:12"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:15"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:19:15"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:19:30"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:19:30"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:19:30"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:19:30"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:19:30"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:30"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:19:33"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:19:33"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:19:33"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:19:33"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:19:33"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:33"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:19:35"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:19:35"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:19:35"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:19:35"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:19:35"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:35"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:19:37"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:19:37"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:19:37"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:19:37"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:19:37"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:38"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:19:40"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:19:40"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:19:40"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:19:40"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:19:40"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:40"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:19:42"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:19:42"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:19:42"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:19:42"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:19:42"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:42"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:44"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:19:44"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:19:56"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:19:56"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:19:56"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:19:56"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:19:56"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:56"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:19:59"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:19:59"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:15"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:15"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:15"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:15"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:15"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:15"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:18"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:20:18"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:19"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:20"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:20"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:20"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:20"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:20"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:20"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:22"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:22"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:22"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:22"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:22"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:22"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:23"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:23"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:23"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:23"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:23"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:23"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:24"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:24"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:24"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:24"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:24"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:24"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:27"}
+{"level":"info","message":"","service":"api-service","timestamp":"2026-05-07 08:20:27"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:20:27"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:29"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:29"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:29"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:29"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:29"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:29"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:31"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:31"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:31"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:31"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:31"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:31"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:32"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:32"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:33"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:33"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:33"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:33"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:35"}
+{"level":"info","message":"Redis Socket Connected","service":"api-service","timestamp":"2026-05-07 08:20:35"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:20:35"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:45"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:45"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:45"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:45"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:45"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:45"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:47"}
+{"level":"info","message":"Redis Socket Connected","service":"api-service","timestamp":"2026-05-07 08:20:47"}
+{"level":"info","message":"","service":"api-service","timestamp":"2026-05-07 08:20:47"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:20:47"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:52"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:52"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:52"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:52"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:52"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:52"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:20:55"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:20:55"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:20:55"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:20:55"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:20:55"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:55"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:20:58"}
+{"level":"info","message":"Redis Socket Connected","service":"api-service","timestamp":"2026-05-07 08:20:58"}
+{"level":"info","message":"Redis Connected Successfully","service":"api-service","timestamp":"2026-05-07 08:20:58"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:20:59"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:21:12"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:21:12"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:21:12"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:21:12"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:21:12"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:21:12"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:21:15"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:21:15"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:21:15"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:21:15"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:21:15"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:21:15"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:21:19"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:21:19"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:21:19"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:21:19"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:21:19"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:21:19"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:21:21"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:21:21"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:21:21"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:21:21"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:21:21"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:21:21"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:21:23"}
+{"level":"info","message":"Redis Socket Connected","service":"api-service","timestamp":"2026-05-07 08:21:23"}
+{"level":"info","message":"Redis Connected Successfully","service":"api-service","timestamp":"2026-05-07 08:21:23"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:21:23"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:21:25"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:21:25"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:21:25"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:21:25"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:21:25"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:21:25"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:21:27"}
+{"level":"info","message":"Redis Socket Connected","service":"api-service","timestamp":"2026-05-07 08:21:27"}
+{"level":"info","message":"Redis Connected Successfully","service":"api-service","timestamp":"2026-05-07 08:21:27"}
+{"level":"info","message":{"maintEndpointType":"auto","maintNotifications":"disabled","maintRelaxedCommandTimeout":10000,"maintRelaxedSocketTimeout":10000,"modules":{"bf":{"ADD":{"IS_READ_ONLY":false,"transformReply":{}},"CARD":{"IS_READ_ONLY":true},"EXISTS":{"IS_READ_ONLY":true,"transformReply":{}},"INFO":{"IS_READ_ONLY":true,"transformReply":{}},"INSERT":{"IS_READ_ONLY":false,"transformReply":{}},"LOADCHUNK":{"IS_READ_ONLY":false},"MADD":{"IS_READ_ONLY":false,"transformReply":{}},"MEXISTS":{"IS_READ_ONLY":true,"transformReply":{}},"RESERVE":{"IS_READ_ONLY":true},"SCANDUMP":{"IS_READ_ONLY":true},"add":{"IS_READ_ONLY":false,"transformReply":{}},"card":{"IS_READ_ONLY":true},"exists":{"IS_READ_ONLY":true,"transformReply":{}},"info":{"IS_READ_ONLY":true,"transformReply":{}},"insert":{"IS_READ_ONLY":false,"transformReply":{}},"loadChunk":{"IS_READ_ONLY":false},"mAdd":{"IS_READ_ONLY":false,"transformReply":{}},"mExists":{"IS_READ_ONLY":true,"transformReply":{}},"reserve":{"IS_READ_ONLY":true},"scanDump":{"IS_READ_ONLY":true}},"cf":{"ADD":{"IS_READ_ONLY":false,"transformReply":{}},"ADDNX":{"IS_READ_ONLY":false,"transformReply":{}},"COUNT":{"IS_READ_ONLY":true},"DEL":{"IS_READ_ONLY":false,"transformReply":{}},"EXISTS":{"IS_READ_ONLY":false,"transformReply":{}},"INFO":{"IS_READ_ONLY":true,"transformReply":{}},"INSERT":{"IS_READ_ONLY":false,"transformReply":{}},"INSERTNX":{"IS_READ_ONLY":false,"transformReply":{}},"LOADCHUNK":{"IS_READ_ONLY":false},"RESERVE":{"IS_READ_ONLY":false},"SCANDUMP":{"IS_READ_ONLY":true},"add":{"IS_READ_ONLY":false,"transformReply":{}},"addNX":{"IS_READ_ONLY":false,"transformReply":{}},"count":{"IS_READ_ONLY":true},"del":{"IS_READ_ONLY":false,"transformReply":{}},"exists":{"IS_READ_ONLY":false,"transformReply":{}},"info":{"IS_READ_ONLY":true,"transformReply":{}},"insert":{"IS_READ_ONLY":false,"transformReply":{}},"insertNX":{"IS_READ_ONLY":false,"transformReply":{}},"loadChunk":{"IS_READ_ONLY":false},"reserve":{"IS_READ_ONLY":false},"scanDump":{"IS_READ_ONLY":true}},"cms":{"INCRBY":{"IS_READ_ONLY":false},"INFO":{"IS_READ_ONLY":true,"transformReply":{}},"INITBYDIM":{"IS_READ_ONLY":false},"INITBYPROB":{"IS_READ_ONLY":false},"MERGE":{"IS_READ_ONLY":false},"QUERY":{"IS_READ_ONLY":true},"incrBy":{"IS_READ_ONLY":false},"info":{"IS_READ_ONLY":true,"transformReply":{}},"initByDim":{"IS_READ_ONLY":false},"initByProb":{"IS_READ_ONLY":false},"merge":{"IS_READ_ONLY":false},"query":{"IS_READ_ONLY":true}},"ft":{"AGGREGATE":{"IS_READ_ONLY":false,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"AGGREGATE_WITHCURSOR":{"IS_READ_ONLY":false,"transformReply":{},"unstableResp3":true},"ALIASADD":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"ALIASDEL":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"ALIASUPDATE":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"ALTER":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"CONFIG_GET":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"CONFIG_SET":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"CREATE":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"CURSOR_DEL":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"CURSOR_READ":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"DICTADD":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"DICTDEL":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"DICTDUMP":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"DROPINDEX":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"EXPLAIN":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"EXPLAINCLI":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"HYBRID":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"INFO":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"PROFILEAGGREGATE":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"PROFILESEARCH":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"SEARCH":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"SEARCH_NOCONTENT":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"SPELLCHECK":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"SUGADD":{"IS_READ_ONLY":true},"SUGDEL":{"IS_READ_ONLY":true},"SUGGET":{"IS_READ_ONLY":true},"SUGGET_WITHPAYLOADS":{"IS_READ_ONLY":true},"SUGGET_WITHSCORES":{"IS_READ_ONLY":true,"transformReply":{}},"SUGGET_WITHSCORES_WITHPAYLOADS":{"IS_READ_ONLY":true,"transformReply":{}},"SUGLEN":{"IS_READ_ONLY":true},"SYNDUMP":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"SYNUPDATE":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"TAGVALS":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"_LIST":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"_list":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"aggregate":{"IS_READ_ONLY":false,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"aggregateWithCursor":{"IS_READ_ONLY":false,"transformReply":{},"unstableResp3":true},"aliasAdd":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"aliasDel":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"aliasUpdate":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"alter":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"configGet":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"configSet":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"create":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"cursorDel":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"cursorRead":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"dictAdd":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"dictDel":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"dictDump":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"dropIndex":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"explain":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"explainCli":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"hybrid":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"info":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"profileAggregate":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"profileSearch":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"search":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"searchNoContent":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"spellCheck":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{},"unstableResp3":true},"sugAdd":{"IS_READ_ONLY":true},"sugDel":{"IS_READ_ONLY":true},"sugGet":{"IS_READ_ONLY":true},"sugGetWithPayloads":{"IS_READ_ONLY":true},"sugGetWithScores":{"IS_READ_ONLY":true,"transformReply":{}},"sugGetWithScoresWithPayloads":{"IS_READ_ONLY":true,"transformReply":{}},"sugLen":{"IS_READ_ONLY":true},"synDump":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"synUpdate":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true},"tagVals":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}}},"json":{"ARRAPPEND":{"IS_READ_ONLY":false},"ARRINDEX":{"IS_READ_ONLY":true},"ARRINSERT":{"IS_READ_ONLY":false},"ARRLEN":{"IS_READ_ONLY":true},"ARRPOP":{"IS_READ_ONLY":false},"ARRTRIM":{"IS_READ_ONLY":false},"CLEAR":{"IS_READ_ONLY":false},"DEBUG_MEMORY":{"IS_READ_ONLY":false},"DEL":{"IS_READ_ONLY":false},"FORGET":{"IS_READ_ONLY":false},"GET":{"IS_READ_ONLY":false},"MERGE":{"IS_READ_ONLY":false},"MGET":{"IS_READ_ONLY":true},"MSET":{"IS_READ_ONLY":false},"NUMINCRBY":{"IS_READ_ONLY":false,"transformReply":{}},"NUMMULTBY":{"IS_READ_ONLY":false,"transformReply":{}},"OBJKEYS":{"IS_READ_ONLY":false},"OBJLEN":{"IS_READ_ONLY":true},"SET":{"IS_READ_ONLY":false},"STRAPPEND":{"IS_READ_ONLY":false},"STRLEN":{"IS_READ_ONLY":true},"TOGGLE":{"IS_READ_ONLY":false},"TYPE":{"IS_READ_ONLY":true,"transformReply":{}},"arrAppend":{"IS_READ_ONLY":false},"arrIndex":{"IS_READ_ONLY":true},"arrInsert":{"IS_READ_ONLY":false},"arrLen":{"IS_READ_ONLY":true},"arrPop":{"IS_READ_ONLY":false},"arrTrim":{"IS_READ_ONLY":false},"clear":{"IS_READ_ONLY":false},"debugMemory":{"IS_READ_ONLY":false},"del":{"IS_READ_ONLY":false},"forget":{"IS_READ_ONLY":false},"get":{"IS_READ_ONLY":false},"mGet":{"IS_READ_ONLY":true},"mSet":{"IS_READ_ONLY":false},"merge":{"IS_READ_ONLY":false},"numIncrBy":{"IS_READ_ONLY":false,"transformReply":{}},"numMultBy":{"IS_READ_ONLY":false,"transformReply":{}},"objKeys":{"IS_READ_ONLY":false},"objLen":{"IS_READ_ONLY":true},"set":{"IS_READ_ONLY":false},"strAppend":{"IS_READ_ONLY":false},"strLen":{"IS_READ_ONLY":true},"toggle":{"IS_READ_ONLY":false},"type":{"IS_READ_ONLY":true,"transformReply":{}}},"tDigest":{"ADD":{"IS_READ_ONLY":false},"BYRANK":{"IS_READ_ONLY":true,"transformReply":{}},"BYREVRANK":{"IS_READ_ONLY":true,"transformReply":{}},"CDF":{"IS_READ_ONLY":true,"transformReply":{}},"CREATE":{"IS_READ_ONLY":false},"INFO":{"IS_READ_ONLY":true,"transformReply":{}},"MAX":{"IS_READ_ONLY":true,"transformReply":{}},"MERGE":{"IS_READ_ONLY":false},"MIN":{"IS_READ_ONLY":true,"transformReply":{}},"QUANTILE":{"IS_READ_ONLY":true,"transformReply":{}},"RANK":{"IS_READ_ONLY":true},"RESET":{"IS_READ_ONLY":false},"REVRANK":{"IS_READ_ONLY":true},"TRIMMED_MEAN":{"IS_READ_ONLY":true,"transformReply":{}},"add":{"IS_READ_ONLY":false},"byRank":{"IS_READ_ONLY":true,"transformReply":{}},"byRevRank":{"IS_READ_ONLY":true,"transformReply":{}},"cdf":{"IS_READ_ONLY":true,"transformReply":{}},"create":{"IS_READ_ONLY":false},"info":{"IS_READ_ONLY":true,"transformReply":{}},"max":{"IS_READ_ONLY":true,"transformReply":{}},"merge":{"IS_READ_ONLY":false},"min":{"IS_READ_ONLY":true,"transformReply":{}},"quantile":{"IS_READ_ONLY":true,"transformReply":{}},"rank":{"IS_READ_ONLY":true},"reset":{"IS_READ_ONLY":false},"revRank":{"IS_READ_ONLY":true},"trimmedMean":{"IS_READ_ONLY":true,"transformReply":{}}},"topK":{"ADD":{"IS_READ_ONLY":false},"COUNT":{"IS_READ_ONLY":true},"INCRBY":{"IS_READ_ONLY":false},"INFO":{"IS_READ_ONLY":true,"transformReply":{}},"LIST":{"IS_READ_ONLY":true},"LIST_WITHCOUNT":{"IS_READ_ONLY":true},"QUERY":{"IS_READ_ONLY":false,"transformReply":{}},"RESERVE":{"IS_READ_ONLY":false},"add":{"IS_READ_ONLY":false},"count":{"IS_READ_ONLY":true},"incrBy":{"IS_READ_ONLY":false},"info":{"IS_READ_ONLY":true,"transformReply":{}},"list":{"IS_READ_ONLY":true},"listWithCount":{"IS_READ_ONLY":true},"query":{"IS_READ_ONLY":false,"transformReply":{}},"reserve":{"IS_READ_ONLY":false}},"ts":{"ADD":{"IS_READ_ONLY":false},"ALTER":{"IS_READ_ONLY":false},"CREATE":{"IS_READ_ONLY":false},"CREATERULE":{"IS_READ_ONLY":false},"DECRBY":{"IS_READ_ONLY":false},"DEL":{"IS_READ_ONLY":false},"DELETERULE":{"IS_READ_ONLY":false},"GET":{"IS_READ_ONLY":true,"transformReply":{}},"INCRBY":{"IS_READ_ONLY":false},"INFO":{"IS_READ_ONLY":true,"transformReply":{},"unstableResp3":true},"INFO_DEBUG":{"IS_READ_ONLY":true,"transformReply":{},"unstableResp3":true},"MADD":{"IS_READ_ONLY":false},"MGET":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"MGET_SELECTED_LABELS":{"IS_READ_ONLY":true,"transformReply":{}},"MGET_WITHLABELS":{"IS_READ_ONLY":true,"transformReply":{}},"MRANGE":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"MRANGE_GROUPBY":{"IS_READ_ONLY":true,"transformReply":{}},"MRANGE_SELECTED_LABELS":{"IS_READ_ONLY":true,"transformReply":{}},"MRANGE_SELECTED_LABELS_GROUPBY":{"IS_READ_ONLY":true,"transformReply":{}},"MRANGE_WITHLABELS":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"MRANGE_WITHLABELS_GROUPBY":{"IS_READ_ONLY":true,"transformReply":{}},"MREVRANGE":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"MREVRANGE_GROUPBY":{"IS_READ_ONLY":true,"transformReply":{}},"MREVRANGE_SELECTED_LABELS":{"IS_READ_ONLY":true,"transformReply":{}},"MREVRANGE_SELECTED_LABELS_GROUPBY":{"IS_READ_ONLY":true,"transformReply":{}},"MREVRANGE_WITHLABELS":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"MREVRANGE_WITHLABELS_GROUPBY":{"IS_READ_ONLY":true,"transformReply":{}},"QUERYINDEX":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"RANGE":{"IS_READ_ONLY":true,"transformReply":{}},"REVRANGE":{"IS_READ_ONLY":true,"transformReply":{}},"add":{"IS_READ_ONLY":false},"alter":{"IS_READ_ONLY":false},"create":{"IS_READ_ONLY":false},"createRule":{"IS_READ_ONLY":false},"decrBy":{"IS_READ_ONLY":false},"del":{"IS_READ_ONLY":false},"deleteRule":{"IS_READ_ONLY":false},"get":{"IS_READ_ONLY":true,"transformReply":{}},"incrBy":{"IS_READ_ONLY":false},"info":{"IS_READ_ONLY":true,"transformReply":{},"unstableResp3":true},"infoDebug":{"IS_READ_ONLY":true,"transformReply":{},"unstableResp3":true},"mAdd":{"IS_READ_ONLY":false},"mGet":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"mGetSelectedLabels":{"IS_READ_ONLY":true,"transformReply":{}},"mGetWithLabels":{"IS_READ_ONLY":true,"transformReply":{}},"mRange":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"mRangeGroupBy":{"IS_READ_ONLY":true,"transformReply":{}},"mRangeSelectedLabels":{"IS_READ_ONLY":true,"transformReply":{}},"mRangeSelectedLabelsGroupBy":{"IS_READ_ONLY":true,"transformReply":{}},"mRangeWithLabels":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"mRangeWithLabelsGroupBy":{"IS_READ_ONLY":true,"transformReply":{}},"mRevRange":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"mRevRangeGroupBy":{"IS_READ_ONLY":true,"transformReply":{}},"mRevRangeSelectedLabels":{"IS_READ_ONLY":true,"transformReply":{}},"mRevRangeSelectedLabelsGroupBy":{"IS_READ_ONLY":true,"transformReply":{}},"mRevRangeWithLabels":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"mRevRangeWithLabelsGroupBy":{"IS_READ_ONLY":true,"transformReply":{}},"queryIndex":{"IS_READ_ONLY":true,"NOT_KEYED_COMMAND":true,"transformReply":{}},"range":{"IS_READ_ONLY":true,"transformReply":{}},"revRange":{"IS_READ_ONLY":true,"transformReply":{}}}},"socket":{"host":"localhost","port":6379,"tls":false},"url":"redis://localhost:6379"},"service":"api-service","timestamp":"2026-05-07 08:21:27"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:21:27"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:21:46"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:21:46"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:21:46"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:21:46"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:21:46"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:21:46"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:21:49"}
+{"level":"info","message":"Redis Socket Connected","service":"api-service","timestamp":"2026-05-07 08:21:49"}
+{"level":"info","message":"Redis Connected Successfully","service":"api-service","timestamp":"2026-05-07 08:21:49"}
+{"level":"info","message":"redis://localhost:6379","service":"api-service","timestamp":"2026-05-07 08:21:49"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:21:49"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:22:01"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:22:01"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:22:01"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:22:01"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:22:01"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:01"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:04"}
+{"level":"info","message":"Redis Socket Connected","service":"api-service","timestamp":"2026-05-07 08:22:04"}
+{"level":"info","message":"Redis Connected Successfully","service":"api-service","timestamp":"2026-05-07 08:22:04"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:22:04"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:22:08"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:22:08"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:22:08"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:22:08"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:22:08"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:08"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:22:09"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:22:09"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:22:09"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:22:09"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:22:09"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:10"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:22:12"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:22:12"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:22:12"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:22:12"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:22:12"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:12"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:15"}
+{"level":"info","message":"Redis Socket Connected","service":"api-service","timestamp":"2026-05-07 08:22:15"}
+{"level":"info","message":"Redis Connected Successfully","service":"api-service","timestamp":"2026-05-07 08:22:15"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:22:15"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:22:18"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:22:18"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:22:18"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:22:18"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:22:18"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:18"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:22:20"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:22:20"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:22:20"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:22:20"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:22:20"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:20"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:22:22"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:22:22"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:22:22"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:22:22"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:22:22"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:22"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:25"}
+{"level":"error","message":"Redis error: Error: getaddrinfo ENOTFOUND loclhost","service":"api-service","timestamp":"2026-05-07 08:22:27"}
+{"level":"error","message":"Redis error: Error: getaddrinfo ENOTFOUND loclhost","service":"api-service","timestamp":"2026-05-07 08:22:29"}
+{"level":"error","message":"Redis error: Error: getaddrinfo ENOTFOUND loclhost","service":"api-service","timestamp":"2026-05-07 08:22:32"}
+{"level":"error","message":"Redis error: Error: getaddrinfo ENOTFOUND loclhost","service":"api-service","timestamp":"2026-05-07 08:22:34"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:22:35"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:22:35"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:22:35"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:22:35"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:22:35"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:35"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:22:44"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:22:44"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:22:45"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:22:45"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:22:45"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:45"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:22:48"}
+{"level":"info","message":"Redis Socket Connected","service":"api-service","timestamp":"2026-05-07 08:22:48"}
+{"level":"info","message":"Redis Connected Successfully","service":"api-service","timestamp":"2026-05-07 08:22:48"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:22:48"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-05-07 08:23:15"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-05-07 08:23:15"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-05-07 08:23:15"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-05-07 08:23:15"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-05-07 08:23:15"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-05-07 08:23:16"}
+{"level":"info","message":"SMTP server connected successfully","service":"api-service","timestamp":"2026-05-07 08:23:18"}
+{"level":"info","message":"Redis Socket Connected","service":"api-service","timestamp":"2026-05-07 08:23:18"}
+{"level":"info","message":"Redis Connected Successfully","service":"api-service","timestamp":"2026-05-07 08:23:18"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-05-07 08:23:18"}
