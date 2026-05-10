@@ -4,8 +4,7 @@ const ERROR_CODES = require('../constants/errorcodes.js');
 const { refreshTokenCookieOptions } = require('../utils/cookieOptions');
 const ApiResponse = require('../utils/ApiResponse.js');
 const logger = require('../utils/logger/logger');
-const sendEmail = require('../utils/sendEmail');
-const welcometemplates = require('../templates/welcome.templates');
+const client = require('../config/redis.js');
 
 module.exports = {
   register: async (req, res) => {
@@ -25,16 +24,16 @@ module.exports = {
       email: createUser.email,
     });
 
-    const html = welcometemplates({
-      username: createUser.email,
+    const jobs = {
+      id: createUser._id,
+      email: createUser.email,
       ctaLink: 'https://www.google.com',
-    });
-
-    await sendEmail({
-      to: createUser.email,
       subject: 'Welcome to My app ',
-      html,
-    });
+    };
+
+    console.log(jobs);
+
+    await client.rPush('emailQueue', JSON.stringify(jobs));
 
     return new ApiResponse({
       stateCode: 200,

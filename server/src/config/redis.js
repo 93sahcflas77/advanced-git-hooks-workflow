@@ -15,7 +15,18 @@ client.on('connect', () => {
 
 client.on('ready', () => {
   logger.info('Redis Connected Successfully');
-  // logger.info(client.options.url)
+  logger.info(client.options.url);
 });
+
+const connect = async () => {
+  try {
+    await client.connect();
+    logger.info('Redis Connected Successfully');
+  } catch (error) {
+    logger.error(`Redis Connected Failed ${error}`);
+  }
+};
+
+connect();
 
 module.exports = client;
